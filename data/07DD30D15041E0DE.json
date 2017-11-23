@@ -1,0 +1,15 @@
+{
+    "uid": "07DD30D15041E0DE",
+    "lastModificationTime": null,
+    "items": {
+        "name": "HomeEater",
+        "type": "project",
+        "version": "1.0.1030",
+        "gameTitle": "HomeEater"
+    },
+    "summary": [
+        "name",
+        "type",
+        "version"
+    ]
+}

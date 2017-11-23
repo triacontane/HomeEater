@@ -1,0 +1,25 @@
+{
+    "uid": "B5CF99B7179AA74EDB190CE48F160D834A9E",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "タイトル",
+        "type": "vn.chapter",
+        "order": 1,
+        "commands": [
+            {
+                "id": "vn.Chapter",
+                "params": {
+                    "name": "タイトル",
+                    "description": ""
+                },
+                "indent": 0
+            }
+        ]
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

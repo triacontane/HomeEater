@@ -1,0 +1,25 @@
+{
+    "uid": "E62F57F85C3C334D8F7A0207182B34C5D1DF",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "オープニング",
+        "type": "vn.chapter",
+        "order": 2,
+        "commands": [
+            {
+                "id": "vn.Chapter",
+                "params": {
+                    "name": "オープニング",
+                    "description": ""
+                },
+                "indent": 0
+            }
+        ]
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

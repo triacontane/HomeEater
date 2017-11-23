@@ -1,0 +1,641 @@
+{
+    "uid": "9B37203A5E53A64C38594F804E49DC3B5A1C",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "タイトルシーン",
+        "type": "vn.scene",
+        "parentId": "B5CF99B7179AA74EDB190CE48F160D834A9E",
+        "chapterUid": "B5CF99B7179AA74EDB190CE48F160D834A9E",
+        "order": 1,
+        "livePreviewDisabled": false,
+        "booleanVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "commands": [
+            {
+                "id": "vn.ChangeBackground",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "graphic": {
+                        "name": "snowuta_022_19201080",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    },
+                    "layer": 0,
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "blendMode": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "loopVertical": 0,
+                    "loopHorizontal": 0,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 0
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0
+            },
+            {
+                "id": "vn.ChangeBackground",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "graphic": {
+                        "name": "snowuta_022s_19201080",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    },
+                    "layer": 0,
+                    "duration": 540,
+                    "waitForCompletion": 0,
+                    "blendMode": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "loopVertical": 0,
+                    "loopHorizontal": 0,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 0
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "68C3AC6E3B801245751A7A98BFF1D2EEA5A9",
+                "indent": 0
+            },
+            {
+                "id": "gs.ChangeTextSettings",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 0,
+                    "bold": 0,
+                    "italic": 0,
+                    "underline": 0,
+                    "smallCaps": 0,
+                    "strikeThrough": 0,
+                    "lineSpacing": 0,
+                    "padding": [
+                        6,
+                        0,
+                        6,
+                        320
+                    ],
+                    "font": "minamoji",
+                    "size": 160,
+                    "outline": 1,
+                    "shadow": 1,
+                    "outlineColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "shadowColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "fieldFlags": {
+                        "font": 0,
+                        "size": 0,
+                        "color": 0,
+                        "bold": 1,
+                        "italic": 1,
+                        "smallCaps": 1,
+                        "underline": 1,
+                        "strikeThrough": 1,
+                        "lineSpacing": 1,
+                        "outline": 0,
+                        "outlineColor": 1,
+                        "outlineSize": 1,
+                        "shadow": 0,
+                        "shadowColor": 1,
+                        "shadowOffsetX": 1,
+                        "shadowOffsetY": 1,
+                        "padding.0": 1,
+                        "padding.1": 0,
+                        "padding.2": 1,
+                        "padding.3": 0
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    },
+                    "color": {
+                        "red": 74,
+                        "green": 0,
+                        "blue": 20,
+                        "alpha": 255
+                    }
+                },
+                "indent": 0,
+                "uid": "94CEFFB62B69D844300A9BF2D22A02F020FF",
+                "expanded": false
+            },
+            {
+                "id": "gs.ShowText",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "viewport": {
+                        "type": "ui"
+                    },
+                    "predefinedPositionId": 8,
+                    "positionType": 0,
+                    "number": 0,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "blendMode": 0,
+                    "positionOrigin": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "text": {
+                        "lcId": "F5AF28AB49AD6843262AECB3FEA36B92D28B",
+                        "defaultText": "家喰い"
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1,
+                        "easing.type": 1,
+                        "animation.type": 1,
+                        "origin": 1,
+                        "positionOrigin": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "viewport.type": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "B3F01178801E564DF37B2F95B509359E6324",
+                "expanded": false
+            },
+            {
+                "id": "gs.ChangeTextSettings",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 1,
+                    "bold": 0,
+                    "italic": 0,
+                    "underline": 0,
+                    "smallCaps": 0,
+                    "strikeThrough": 0,
+                    "lineSpacing": 0,
+                    "padding": [
+                        6,
+                        0,
+                        6,
+                        72
+                    ],
+                    "font": "minamoji",
+                    "size": 64,
+                    "outline": 0,
+                    "shadow": 1,
+                    "outlineColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "shadowColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "fieldFlags": {
+                        "font": 0,
+                        "size": 0,
+                        "color": 1,
+                        "bold": 1,
+                        "italic": 1,
+                        "smallCaps": 0,
+                        "underline": 1,
+                        "strikeThrough": 1,
+                        "lineSpacing": 1,
+                        "outline": 0,
+                        "outlineColor": 1,
+                        "outlineSize": 1,
+                        "shadow": 0,
+                        "shadowColor": 1,
+                        "shadowOffsetX": 1,
+                        "shadowOffsetY": 1,
+                        "padding.0": 1,
+                        "padding.1": 1,
+                        "padding.2": 1,
+                        "padding.3": 0
+                    }
+                },
+                "uid": "7D7117C361EBD84AD22826C8171321E3FFD0",
+                "indent": 0,
+                "expanded": false
+            },
+            {
+                "id": "gs.ShowText",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "viewport": {
+                        "type": "ui"
+                    },
+                    "predefinedPositionId": 5,
+                    "positionType": 0,
+                    "number": 1,
+                    "duration": 60,
+                    "waitForCompletion": 0,
+                    "blendMode": 0,
+                    "positionOrigin": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "text": {
+                        "lcId": "D4B3381E53B8444FC51AD915137634B5073A",
+                        "defaultText": "- Press Start -"
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "easing": {
+                        "type": 1,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 3,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 0,
+                        "easing.type": 0,
+                        "animation.type": 0,
+                        "origin": 1,
+                        "positionOrigin": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "viewport.type": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "4F205A3276CEF246E56A5A521162C50B4263",
+                "indent": 0,
+                "expanded": false
+            },
+            {
+                "id": "gs.WaitForInput",
+                "params": {
+                    "key": 1,
+                    "state": 1,
+                    "action": {
+                        "type": 0,
+                        "data": {
+                            "label": "$$C50EA7EF0592134BEF59E098BD7961D34EB4",
+                            "commonEventId": 0
+                        }
+                    }
+                },
+                "uid": "59F05A451A6CF346C7383F17174A95677B48",
+                "indent": 0
+            },
+            {
+                "id": "gs.LoopCommand",
+                "params": {},
+                "indent": 0,
+                "uid": "33723B01705DB2429789F5A15BC5AB2CEB45"
+            },
+            {
+                "id": "gs.GetInputData",
+                "params": {
+                    "field": 0,
+                    "state": 0,
+                    "targetVariable": {
+                        "name": "キー入力",
+                        "scope": 1,
+                        "index": 0,
+                        "changed": true,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 1,
+                "uid": "8FE8FA748F4676412A48F4C8430E934294AF"
+            },
+            {
+                "id": "gs.Condition",
+                "params": {
+                    "variable": {
+                        "name": "キー入力",
+                        "scope": 1,
+                        "index": 0,
+                        "changed": true,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "numberValue": 0,
+                    "textValue": "",
+                    "switchValue": 0,
+                    "valueType": 0,
+                    "operation": 2,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 1,
+                "uid": "524DD5722F20984E1B5AA8C5CA853FDADA4D"
+            },
+            {
+                "id": "gs.BreakLoopCommand",
+                "params": {},
+                "indent": 2,
+                "uid": "F05AE55F7A44A942E01BA06393036EAE74E6"
+            },
+            {
+                "id": "gs.GetInputData",
+                "params": {
+                    "field": 11,
+                    "state": 0,
+                    "targetVariable": {
+                        "name": "マウス入力",
+                        "scope": 1,
+                        "index": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 1,
+                "uid": "AFBB4AA42660214E653B76C242022B5B1A3F"
+            },
+            {
+                "id": "gs.Condition",
+                "params": {
+                    "variable": {
+                        "name": "マウス入力",
+                        "scope": 1,
+                        "index": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "numberValue": 0,
+                    "textValue": "",
+                    "switchValue": 0,
+                    "valueType": 0,
+                    "operation": 2,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 1,
+                "uid": "1D84B3B60AE5B6413E29ADC437B63A93935A"
+            },
+            {
+                "id": "gs.BreakLoopCommand",
+                "params": {},
+                "indent": 2,
+                "uid": "7DFA408056C4304F6E39B7940667AD613310"
+            },
+            {
+                "id": "gs.PlaySound",
+                "params": {
+                    "sound": {
+                        "name": "dark_attack",
+                        "volume": 100,
+                        "playbackRate": 100
+                    },
+                    "musicEffect": 0,
+                    "fieldFlags": {
+                        "sound.volume": 1,
+                        "sound.playbackRate": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "0C8070577B70C84DFC7A157250B98816AC7A"
+            },
+            {
+                "id": "gs.BlendText",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 1,
+                    "duration": 60,
+                    "waitForCompletion": 1,
+                    "opacity": 0,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    }
+                },
+                "uid": "05BFFC4435C4874F1E491EB7E9819B3AA61B",
+                "indent": 0
+            },
+            {
+                "id": "gs.WaitCommand",
+                "params": {
+                    "time": 6
+                },
+                "uid": "389664D87646C24CD33BD6914DB9055FED69",
+                "indent": 0
+            },
+            {
+                "id": "gs.BlendText",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 0,
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "opacity": 0,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    }
+                },
+                "uid": "6803056429ACD8489838757221EE6D228F64",
+                "indent": 0
+            },
+            {
+                "id": "gs.EraseText",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 0,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "F5E2B1526EF8974F0A1B61A7C3741D7CFB82",
+                "indent": 0
+            },
+            {
+                "id": "gs.EraseText",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 1,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "E625F6817E40154FCB3853E16C85E9E2FA50",
+                "indent": 0
+            },
+            {
+                "id": "gs.LoadGame",
+                "params": {
+                    "slot": 1
+                },
+                "indent": 0,
+                "uid": "763648274F276147B71A8556C40060089218"
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "1A85B0AA829B4140124B21965580C3652A8A",
+                        "name": "オープニング"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "F35710FD1B2C0346ED3A9F47F59834C65845",
+                "indent": 0
+            }
+        ],
+        "localizableStrings": {
+            "F5AF28AB49AD6843262AECB3FEA36B92D28B": {
+                "t": "家喰い",
+                "d": {
+                    "eid": "B3F01178801E564DF37B2F95B509359E6324"
+                }
+            },
+            "D4B3381E53B8444FC51AD915137634B5073A": {
+                "t": "- Press Start -",
+                "d": {
+                    "eid": "4F205A3276CEF246E56A5A521162C50B4263"
+                }
+            }
+        },
+        "numberVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "stringVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ]
+    },
+    "summary": [
+        "name",
+        "type",
+        "parentId",
+        "chapterUid",
+        "order"
+    ]
+}

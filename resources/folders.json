@@ -1,0 +1,755 @@
+[
+    {
+        "path": "Graphics",
+        "resources": []
+    },
+    {
+        "path": "Graphics/Characters",
+        "resources": []
+    },
+    {
+        "path": "Graphics/Backgrounds",
+        "resources": [
+            {
+                "name": "snowuta_022s_19201080",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 140117
+            },
+            {
+                "name": "snowuta_022_19201080",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 115049
+            }
+        ]
+    },
+    {
+        "path": "Graphics/Pictures",
+        "resources": [
+            {
+                "type": "folder",
+                "name": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                "displayName": "UI",
+                "resources": [
+                    {
+                        "type": "folder",
+                        "name": "F62E7167KEA21A419DSB8A3E830D599F89CB",
+                        "displayName": "Mobile",
+                        "resources": [
+                            {
+                                "name": "m-arrow",
+                                "type": "graphic",
+                                "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
+                                "isa": null
+                            },
+                            {
+                                "name": "m-arrow-disabled",
+                                "type": "graphic",
+                                "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
+                                "isa": null
+                            },
+                            {
+                                "name": "m-diamond-large-off",
+                                "type": "graphic",
+                                "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
+                                "isa": null
+                            },
+                            {
+                                "name": "m-diamond-large-on",
+                                "type": "graphic",
+                                "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
+                                "isa": null
+                            },
+                            {
+                                "name": "m-diamond-small-off",
+                                "type": "graphic",
+                                "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
+                                "isa": null
+                            },
+                            {
+                                "name": "m-diamond-small-on",
+                                "type": "graphic",
+                                "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
+                                "isa": null
+                            },
+                            {
+                                "name": "msg-diamond-small-off",
+                                "type": "graphic",
+                                "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
+                                "isa": null
+                            },
+                            {
+                                "name": "msg-diamond-small-on",
+                                "type": "graphic",
+                                "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
+                                "isa": null
+                            }
+                        ],
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130918
+                    },
+                    {
+                        "name": "bg-generic",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130920
+                    },
+                    {
+                        "name": "diamond-large-off",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130922
+                    },
+                    {
+                        "name": "diamond-large-on",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130924
+                    },
+                    {
+                        "name": "diamond-small-off",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130926
+                    },
+                    {
+                        "name": "diamond-small-on",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130928
+                    },
+                    {
+                        "name": "dropshadow",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130930
+                    },
+                    {
+                        "name": "entrybox",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130932
+                    },
+                    {
+                        "name": "locked",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130934
+                    },
+                    {
+                        "name": "scrollbar",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130936
+                    },
+                    {
+                        "name": "selection",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130938
+                    },
+                    {
+                        "name": "selection-inactive",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130940
+                    },
+                    {
+                        "name": "skin-frame",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130942
+                    },
+                    {
+                        "name": "skin-stretch",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130944
+                    },
+                    {
+                        "name": "skin-tile",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130946
+                    },
+                    {
+                        "name": "message_caret",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 245817
+                    },
+                    {
+                        "name": "thumbnailshadow",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130948
+                    }
+                ],
+                "isa": null,
+                "_UID": 130587
+            },
+            {
+                "name": "web-start-screen",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 111130
+            }
+        ]
+    },
+    {
+        "path": "Graphics/Icons",
+        "resources": [
+            {
+                "name": "Germany",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 247792
+            },
+            {
+                "name": "Japan",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 247794
+            },
+            {
+                "name": "United-Kingdom",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 247796
+            }
+        ]
+    },
+    {
+        "path": "Graphics/Masks",
+        "resources": []
+    },
+    {
+        "path": "Graphics/Fonts",
+        "resources": [
+            {
+                "name": "minamoji",
+                "type": "graphic"
+            }
+        ]
+    },
+    {
+        "path": "Audio/Music",
+        "resources": [
+            {
+                "name": "300hz_noise",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200377
+            },
+            {
+                "name": "600hz_noise",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200379
+            },
+            {
+                "name": "1000hz_noise",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200381
+            },
+            {
+                "name": "1500hz_noise",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200383
+            },
+            {
+                "name": "2400hz_noise",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200385
+            },
+            {
+                "name": "barking_dog_in_dream",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200387
+            },
+            {
+                "name": "bullying",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200389
+            },
+            {
+                "name": "cameras",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200391
+            },
+            {
+                "name": "chilly_hell",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200393
+            },
+            {
+                "name": "coming_of_terror",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200395
+            },
+            {
+                "name": "dark_atmosphere",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200397
+            },
+            {
+                "name": "dark_attack",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200399
+            },
+            {
+                "name": "death_sound1",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200401
+            },
+            {
+                "name": "death_sound2",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200403
+            },
+            {
+                "name": "death_sound3",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200405
+            },
+            {
+                "name": "death_sound4",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200407
+            },
+            {
+                "name": "distortion_of_the_dim",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200409
+            },
+            {
+                "name": "ending_of_the_world1",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200411
+            },
+            {
+                "name": "ending_of_the_world2",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200413
+            },
+            {
+                "name": "fly_in_the_head",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200415
+            },
+            {
+                "name": "footsteps_of the_past",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200417
+            },
+            {
+                "name": "gaining_weight",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200419
+            },
+            {
+                "name": "ghost_sigh",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200421
+            },
+            {
+                "name": "ghosts",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200423
+            },
+            {
+                "name": "going_mad1",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200425
+            },
+            {
+                "name": "going_mad2",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200427
+            },
+            {
+                "name": "headache",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200429
+            },
+            {
+                "name": "hell_bell",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200431
+            },
+            {
+                "name": "hell_gear",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200433
+            },
+            {
+                "name": "horror_piano chord2",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200435
+            },
+            {
+                "name": "horror_piano chord3",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200437
+            },
+            {
+                "name": "horror_piano chord4",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200439
+            },
+            {
+                "name": "horror_zone1",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200441
+            },
+            {
+                "name": "horror_zone2",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200443
+            },
+            {
+                "name": "in_dream",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200445
+            },
+            {
+                "name": "laughing1",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200447
+            },
+            {
+                "name": "loud_noise",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200449
+            },
+            {
+                "name": "maze",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200451
+            },
+            {
+                "name": "shock1",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200453
+            },
+            {
+                "name": "shock2",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200455
+            },
+            {
+                "name": "shock3",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200457
+            },
+            {
+                "name": "something_call_to_you",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200459
+            },
+            {
+                "name": "strange_wind",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200461
+            },
+            {
+                "name": "suspicion1",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200463
+            },
+            {
+                "name": "suspicion2",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200465
+            },
+            {
+                "name": "suspicion3",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200467
+            },
+            {
+                "name": "terror",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200469
+            },
+            {
+                "name": "terror_attack",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200471
+            },
+            {
+                "name": "terror_clock",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200473
+            },
+            {
+                "name": "time_reversal",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200475
+            },
+            {
+                "name": "tinnitus1",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200477
+            },
+            {
+                "name": "tinnitus2",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200479
+            },
+            {
+                "name": "tinnitus3",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200481
+            },
+            {
+                "name": "tinnitus4",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200483
+            },
+            {
+                "name": "tinnitus5",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200485
+            },
+            {
+                "name": "under_world",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200487
+            },
+            {
+                "name": "white_noise1",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200489
+            },
+            {
+                "name": "white_noise2",
+                "type": "audio",
+                "isa": null,
+                "_UID": 200491
+            },
+            {
+                "name": "horror_piano chord1",
+                "type": "audio",
+                "isa": null,
+                "_UID": 1152424
+            }
+        ]
+    },
+    {
+        "path": "Audio/Sounds",
+        "resources": [
+            {
+                "name": "dark_attack",
+                "type": "audio",
+                "isa": null,
+                "_UID": 803027
+            },
+            {
+                "name": "terror_attack",
+                "type": "audio",
+                "isa": null,
+                "_UID": 2327051
+            },
+            {
+                "name": "footsteps_of the_past",
+                "type": "audio"
+            },
+            {
+                "type": "folder",
+                "name": "ABCD5AC67A276749B11AC05560C3D6482B3D",
+                "displayName": "System",
+                "resources": [
+                    {
+                        "name": "choice_cancel_02",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D",
+                        "isa": null,
+                        "_UID": 268286
+                    },
+                    {
+                        "name": "choice_confirm_01",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D",
+                        "isa": null,
+                        "_UID": 268288
+                    },
+                    {
+                        "name": "choice_confirm_02",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D",
+                        "isa": null,
+                        "_UID": 268290
+                    },
+                    {
+                        "name": "choice_confirm_03",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D",
+                        "isa": null,
+                        "_UID": 268292
+                    },
+                    {
+                        "name": "cursor",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D",
+                        "isa": null,
+                        "_UID": 268294
+                    },
+                    {
+                        "name": "exit_01",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D",
+                        "isa": null,
+                        "_UID": 268296
+                    },
+                    {
+                        "name": "exit_02",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D",
+                        "isa": null,
+                        "_UID": 268298
+                    },
+                    {
+                        "name": "invalid_buzz_01",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D",
+                        "isa": null,
+                        "_UID": 268300
+                    },
+                    {
+                        "name": "invalid_buzz_02",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D",
+                        "isa": null,
+                        "_UID": 268302
+                    },
+                    {
+                        "name": "invalid_buzz_03",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D",
+                        "isa": null,
+                        "_UID": 268304
+                    },
+                    {
+                        "name": "load_01",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D",
+                        "isa": null,
+                        "_UID": 268306
+                    },
+                    {
+                        "name": "load_02",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D",
+                        "isa": null,
+                        "_UID": 268308
+                    },
+                    {
+                        "name": "save_01",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D",
+                        "isa": null,
+                        "_UID": 268310
+                    },
+                    {
+                        "name": "save_02",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D",
+                        "isa": null,
+                        "_UID": 268312
+                    },
+                    {
+                        "name": "choice_cancel_01",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D",
+                        "isa": null,
+                        "_UID": 268314
+                    }
+                ],
+                "isa": null,
+                "_UID": 337064
+            }
+        ]
+    },
+    {
+        "path": "Live2D",
+        "resources": []
+    },
+    {
+        "path": "Movies",
+        "resources": []
+    }
+]

@@ -1,0 +1,82 @@
+{
+    "uid": "37B94D604A93D04CE12B37E66CA595F1DEF1",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "見知らぬ部屋",
+        "type": "vn.scene",
+        "parentId": "6F9EC9FA64C2B649204BCB920C270E253970",
+        "chapterUid": "6F9EC9FA64C2B649204BCB920C270E253970",
+        "order": 0,
+        "localizableStrings": {
+            "89E71F9B3E9407465B4B02A394436500B217": {
+                "t": "見知らぬ部屋",
+                "d": {
+                    "cid": 0,
+                    "eid": "F69C1A4E670C21466E7A16570733655F6679"
+                }
+            }
+        },
+        "commands": [
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "89E71F9B3E9407465B4B02A394436500B217",
+                        "defaultText": "見知らぬ部屋"
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "F69C1A4E670C21466E7A16570733655F6679",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "9B37203A5E53A64C38594F804E49DC3B5A1C",
+                        "name": "タイトルシーン"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "B21A9D24575A9748FB4A10167C24A72AFE79",
+                "indent": 0
+            }
+        ],
+        "livePreviewDisabled": false
+    },
+    "summary": [
+        "name",
+        "type",
+        "parentId",
+        "chapterUid",
+        "order"
+    ]
+}
