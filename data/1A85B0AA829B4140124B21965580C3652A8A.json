@@ -3,7 +3,7 @@
     "isLoaded": true,
     "lastModificationTime": 0,
     "items": {
-        "name": "オープニングシーン",
+        "name": "オープニング",
         "type": "vn.scene",
         "parentId": "E62F57F85C3C334D8F7A0207182B34C5D1DF",
         "chapterUid": "E62F57F85C3C334D8F7A0207182B34C5D1DF",
@@ -64,6 +64,12 @@
                     "cid": 0,
                     "eid": "A3714FC67F807741436BC294449CA025A48A"
                 }
+            },
+            "057B053C84D681461C3859A210EEDE879702": {
+                "t": "！注意！\n本作には、ややショッキングな表現が含まれています。\n苦手な方はご注意ください。\nまた、本作はマウスを使ってプレーします。",
+                "d": {
+                    "eid": "C92B862D1727744BF009A201ED94B7D3B8EC"
+                }
             }
         },
         "commands": [
@@ -76,44 +82,169 @@
                 "indent": 0
             },
             {
-                "id": "gs.CreateMessageArea",
+                "id": "gs.CallCommonEvent",
                 "params": {
-                    "numberDomain": "com.degica.vnm.default",
-                    "number": 0,
-                    "box": {
-                        "x": 40,
-                        "y": 360,
-                        "angle": 0,
-                        "zoom": 1,
-                        "data": {},
-                        "color": {
-                            "red": 0,
-                            "green": 0,
-                            "blue": 0,
-                            "alpha": 160
-                        },
-                        "size": {
-                            "width": 1200,
-                            "height": 360
-                        }
-                    },
-                    "previewBackground": {
-                        "name": "$live_preview_snapshot"
+                    "commonEventId": "D72752099E0F1849A22ACBC8DCC208734E97",
+                    "parameters": {
+                        "values": []
                     }
                 },
-                "uid": "277DAB344602C84E072B3933A108CE3AAAA6",
+                "uid": "9FD7298115F092416C6BA624C2AA2D833B8F",
                 "indent": 0
             },
             {
-                "id": "gs.SetTargetMessage",
+                "id": "gs.ChangeTextSettings",
                 "params": {
-                    "id": "gameMessage_message",
                     "numberDomain": "com.degica.vnm.default",
                     "number": 0,
-                    "type": 1,
-                    "clear": 0
+                    "bold": 0,
+                    "italic": 0,
+                    "underline": 0,
+                    "smallCaps": 0,
+                    "strikeThrough": 0,
+                    "lineSpacing": 0,
+                    "padding": [
+                        6,
+                        0,
+                        6,
+                        0
+                    ],
+                    "font": "minamoji",
+                    "size": 48,
+                    "outline": 0,
+                    "shadow": 0,
+                    "outlineColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "shadowColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "fieldFlags": {
+                        "font": 0,
+                        "size": 0,
+                        "color": 1,
+                        "bold": 1,
+                        "italic": 1,
+                        "smallCaps": 1,
+                        "underline": 1,
+                        "strikeThrough": 1,
+                        "lineSpacing": 1,
+                        "outline": 1,
+                        "outlineColor": 1,
+                        "outlineSize": 1,
+                        "shadow": 1,
+                        "shadowColor": 1,
+                        "shadowOffsetX": 1,
+                        "shadowOffsetY": 1,
+                        "padding.0": 1,
+                        "padding.1": 1,
+                        "padding.2": 1,
+                        "padding.3": 1
+                    }
                 },
-                "uid": "B4A0D38B846EB84E096A0CC63351037175E0",
+                "uid": "F345594E53DD8444C58B9F7305990521975B",
+                "indent": 0,
+                "expanded": false
+            },
+            {
+                "id": "gs.ShowText",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "viewport": {
+                        "type": "ui"
+                    },
+                    "predefinedPositionId": 8,
+                    "positionType": 0,
+                    "number": 0,
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "blendMode": 0,
+                    "positionOrigin": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "text": {
+                        "lcId": "057B053C84D681461C3859A210EEDE879702",
+                        "defaultText": "！注意！\n本作には、ややショッキングな表現が含まれています。\n苦手な方はご注意ください。\nまた、本作はマウスを使ってプレーします。"
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 0,
+                        "easing.type": 1,
+                        "animation.type": 1,
+                        "origin": 1,
+                        "positionOrigin": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "viewport.type": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "C92B862D1727744BF009A201ED94B7D3B8EC",
+                "indent": 0,
+                "expanded": false
+            },
+            {
+                "id": "gs.WaitCommand",
+                "params": {
+                    "time": 180
+                },
+                "uid": "17C430E6609C474B274B4DF757151BF25D22",
+                "indent": 0
+            },
+            {
+                "id": "gs.EraseText",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 0,
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "7AE4114A6A3B1445D5281E96823299A24BEE",
+                "indent": 0
+            },
+            {
+                "id": "gs.WaitCommand",
+                "params": {
+                    "time": 120
+                },
+                "uid": "F5CA38593D15914833597B971CD24B36FBBB",
                 "indent": 0
             },
             {
@@ -156,16 +287,7 @@
                         "type": "scene"
                     },
                     "graphic": {
-                        "name": "snowuta_022_19201080",
-                        "hue": 0,
-                        "opacity": 255,
-                        "blending": 0,
-                        "tone": {
-                            "red": 0,
-                            "green": 0,
-                            "blue": 0,
-                            "grey": 0
-                        }
+                        "name": "snowuta_022"
                     },
                     "layer": 0,
                     "duration": 60,
@@ -265,16 +387,7 @@
                         "type": "scene"
                     },
                     "graphic": {
-                        "name": "snowuta_022s_19201080",
-                        "hue": 0,
-                        "opacity": 255,
-                        "blending": 0,
-                        "tone": {
-                            "red": 0,
-                            "green": 0,
-                            "blue": 0,
-                            "grey": 0
-                        }
+                        "name": "snowuta_022s"
                     },
                     "layer": 0,
                     "duration": 30,
@@ -696,29 +809,11 @@
                 "uid": "B06BB7CD2C41D34C7A997A36F71F84A078D8"
             },
             {
-                "id": "gs.PrepareSaveGame",
-                "params": {
-                    "snapshot": 1
-                },
-                "indent": 0,
-                "uid": "139913026E1CD845DD3B8C8618F5BDE2AAB0"
-            },
-            {
-                "id": "gs.SaveGame",
-                "params": {
-                    "slot": 1,
-                    "thumbWidth": 0,
-                    "thumbHeight": 0
-                },
-                "uid": "9B14DEB52B9985411459A3C27D6758171F76",
-                "indent": 0
-            },
-            {
                 "id": "vn.ChangeScene",
                 "params": {
                     "scene": {
-                        "uid": "37B94D604A93D04CE12B37E66CA595F1DEF1",
-                        "name": "見知らぬ部屋"
+                        "uid": "D9B520885F203440528B9F511042FA6CE4EE",
+                        "name": "オープニング終了"
                     },
                     "savePrevious": 0,
                     "erasePictures": 0,
@@ -728,7 +823,7 @@
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "3F44B5947F8B9144F33916335CF7A9E379CA",
+                "uid": "5BF6DC5F6BD5D7453949D28316E815F95A42",
                 "indent": 0
             }
         ],
@@ -748,6 +843,13 @@
             }
         ],
         "stringVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "listVariables": [
             {
                 "name": "",
                 "index": 0,

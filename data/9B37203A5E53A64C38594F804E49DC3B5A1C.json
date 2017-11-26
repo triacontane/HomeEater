@@ -3,7 +3,7 @@
     "isLoaded": true,
     "lastModificationTime": 0,
     "items": {
-        "name": "タイトルシーン",
+        "name": "タイトル",
         "type": "vn.scene",
         "parentId": "B5CF99B7179AA74EDB190CE48F160D834A9E",
         "chapterUid": "B5CF99B7179AA74EDB190CE48F160D834A9E",
@@ -13,10 +13,31 @@
             {
                 "name": "",
                 "index": 0,
-                "scope": 0
+                "scope": 0,
+                "domain": "com.degica.vnm.default"
             }
         ],
         "commands": [
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": 0,
+                    "parameters": {
+                        "values": [
+                            {
+                                "scope": 1,
+                                "index": 0,
+                                "domain": "com.degica.vnm.default"
+                            }
+                        ]
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "D475104603D8F6439C799E26D227C49E2A6B",
+                "indent": 0
+            },
             {
                 "id": "vn.ChangeBackground",
                 "params": {
@@ -24,19 +45,10 @@
                         "type": "scene"
                     },
                     "graphic": {
-                        "name": "snowuta_022_19201080",
-                        "hue": 0,
-                        "opacity": 255,
-                        "blending": 0,
-                        "tone": {
-                            "red": 0,
-                            "green": 0,
-                            "blue": 0,
-                            "grey": 0
-                        }
+                        "name": "snowuta_022"
                     },
                     "layer": 0,
-                    "duration": 0,
+                    "duration": 0.06,
                     "waitForCompletion": 1,
                     "blendMode": 0,
                     "origin": 0,
@@ -71,16 +83,7 @@
                         "type": "scene"
                     },
                     "graphic": {
-                        "name": "snowuta_022s_19201080",
-                        "hue": 0,
-                        "opacity": 255,
-                        "blending": 0,
-                        "tone": {
-                            "red": 0,
-                            "green": 0,
-                            "blue": 0,
-                            "grey": 0
-                        }
+                        "name": "snowuta_022s"
                     },
                     "layer": 0,
                     "duration": 540,
@@ -137,13 +140,15 @@
                         "red": 0,
                         "green": 0,
                         "blue": 0,
-                        "alpha": 255
+                        "alpha": 255,
+                        "color": {}
                     },
                     "shadowColor": {
                         "red": 0,
                         "green": 0,
                         "blue": 0,
-                        "alpha": 255
+                        "alpha": 255,
+                        "color": {}
                     },
                     "fieldFlags": {
                         "font": 0,
@@ -174,7 +179,8 @@
                         "red": 74,
                         "green": 0,
                         "blue": 20,
-                        "alpha": 255
+                        "alpha": 255,
+                        "color": {}
                     }
                 },
                 "indent": 0,
@@ -249,7 +255,7 @@
                         6,
                         0,
                         6,
-                        72
+                        80
                     ],
                     "font": "minamoji",
                     "size": 64,
@@ -259,13 +265,15 @@
                         "red": 0,
                         "green": 0,
                         "blue": 0,
-                        "alpha": 255
+                        "alpha": 255,
+                        "color": {}
                     },
                     "shadowColor": {
                         "red": 0,
                         "green": 0,
                         "blue": 0,
-                        "alpha": 255
+                        "alpha": 255,
+                        "color": {}
                     },
                     "fieldFlags": {
                         "font": 0,
@@ -312,7 +320,7 @@
                     "zOrder": 0,
                     "text": {
                         "lcId": "D4B3381E53B8444FC51AD915137634B5073A",
-                        "defaultText": "- Press Start -"
+                        "defaultText": "- Click Start -"
                     },
                     "position": {
                         "x": 0,
@@ -348,6 +356,121 @@
                 "expanded": false
             },
             {
+                "id": "gs.ChangeTextSettings",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 2,
+                    "bold": 0,
+                    "italic": 0,
+                    "underline": 0,
+                    "smallCaps": 0,
+                    "strikeThrough": 0,
+                    "lineSpacing": 0,
+                    "padding": [
+                        6,
+                        0,
+                        6,
+                        10
+                    ],
+                    "font": "minamoji",
+                    "size": 36,
+                    "outline": 1,
+                    "shadow": 1,
+                    "outlineColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255,
+                        "color": {}
+                    },
+                    "shadowColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255,
+                        "color": {}
+                    },
+                    "fieldFlags": {
+                        "font": 0,
+                        "size": 0,
+                        "color": 1,
+                        "bold": 1,
+                        "italic": 1,
+                        "smallCaps": 0,
+                        "underline": 1,
+                        "strikeThrough": 1,
+                        "lineSpacing": 1,
+                        "outline": 0,
+                        "outlineColor": 1,
+                        "outlineSize": 1,
+                        "shadow": 0,
+                        "shadowColor": 1,
+                        "shadowOffsetX": 1,
+                        "shadowOffsetY": 1,
+                        "padding.0": 1,
+                        "padding.1": 1,
+                        "padding.2": 1,
+                        "padding.3": 0
+                    }
+                },
+                "uid": "0FA79ED0616EB64A4659B13179EB4E93CD04",
+                "indent": 0,
+                "expanded": false
+            },
+            {
+                "id": "gs.ShowText",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "viewport": {
+                        "type": "ui"
+                    },
+                    "predefinedPositionId": 4,
+                    "positionType": 0,
+                    "number": 2,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "blendMode": 0,
+                    "positionOrigin": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "text": {
+                        "lcId": "DFA41A5D5CB07347366B4BA1C4C312FFC305",
+                        "defaultText": "(C)2017 Triacontane"
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "easing": {
+                        "type": 1,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 3,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 0,
+                        "easing.type": 0,
+                        "animation.type": 0,
+                        "origin": 1,
+                        "positionOrigin": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "viewport.type": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "00130D52233BA64D7D1B07E362A68D72F38F",
+                "indent": 0,
+                "expanded": false
+            },
+            {
                 "id": "gs.WaitForInput",
                 "params": {
                     "key": 1,
@@ -372,7 +495,7 @@
             {
                 "id": "gs.GetInputData",
                 "params": {
-                    "field": 0,
+                    "field": 6,
                     "state": 0,
                     "targetVariable": {
                         "name": "キー入力",
@@ -500,27 +623,40 @@
                 "indent": 0
             },
             {
-                "id": "gs.WaitCommand",
+                "id": "vn.ChangeBackground",
                 "params": {
-                    "time": 6
-                },
-                "uid": "389664D87646C24CD33BD6914DB9055FED69",
-                "indent": 0
-            },
-            {
-                "id": "gs.BlendText",
-                "params": {
-                    "numberDomain": "com.degica.vnm.default",
-                    "number": 0,
-                    "duration": 0,
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "graphic": null,
+                    "layer": 0,
+                    "duration": 0.06,
                     "waitForCompletion": 1,
-                    "opacity": 0,
+                    "blendMode": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "loopVertical": 0,
+                    "loopHorizontal": 0,
                     "easing": {
                         "type": 0,
                         "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 0
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "6803056429ACD8489838757221EE6D228F64",
+                "uid": "6DD3E58D6F629945AF19B196C8A17405792F",
                 "indent": 0
             },
             {
@@ -528,7 +664,7 @@
                 "params": {
                     "numberDomain": "com.degica.vnm.default",
                     "number": 0,
-                    "duration": 0,
+                    "duration": 0.06,
                     "waitForCompletion": 0,
                     "easing": {
                         "type": 0,
@@ -543,7 +679,7 @@
                         }
                     },
                     "fieldFlags": {
-                        "duration": 1
+                        "duration": 0
                     }
                 },
                 "uid": "F5E2B1526EF8974F0A1B61A7C3741D7CFB82",
@@ -553,8 +689,8 @@
                 "id": "gs.EraseText",
                 "params": {
                     "numberDomain": "com.degica.vnm.default",
-                    "number": 1,
-                    "duration": 0,
+                    "number": 2,
+                    "duration": 0.06,
                     "waitForCompletion": 0,
                     "easing": {
                         "type": 0,
@@ -569,7 +705,33 @@
                         }
                     },
                     "fieldFlags": {
-                        "duration": 1
+                        "duration": 0
+                    }
+                },
+                "uid": "E2ED38766EB2B74558587DB99F7DED33272C",
+                "indent": 0
+            },
+            {
+                "id": "gs.EraseText",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 1,
+                    "duration": 0.06,
+                    "waitForCompletion": 1,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 0
                     }
                 },
                 "uid": "E625F6817E40154FCB3853E16C85E9E2FA50",
@@ -610,9 +772,15 @@
                 }
             },
             "D4B3381E53B8444FC51AD915137634B5073A": {
-                "t": "- Press Start -",
+                "t": "- Click Start -",
                 "d": {
                     "eid": "4F205A3276CEF246E56A5A521162C50B4263"
+                }
+            },
+            "DFA41A5D5CB07347366B4BA1C4C312FFC305": {
+                "t": "(C)2017 Triacontane",
+                "d": {
+                    "eid": "00130D52233BA64D7D1B07E362A68D72F38F"
                 }
             }
         },
@@ -624,6 +792,13 @@
             }
         ],
         "stringVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "listVariables": [
             {
                 "name": "",
                 "index": 0,

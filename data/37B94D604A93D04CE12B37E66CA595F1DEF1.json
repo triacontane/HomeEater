@@ -3,21 +3,416 @@
     "isLoaded": true,
     "lastModificationTime": 0,
     "items": {
-        "name": "見知らぬ部屋",
+        "name": "入口の教室",
         "type": "vn.scene",
         "parentId": "6F9EC9FA64C2B649204BCB920C270E253970",
         "chapterUid": "6F9EC9FA64C2B649204BCB920C270E253970",
         "order": 0,
         "localizableStrings": {
-            "89E71F9B3E9407465B4B02A394436500B217": {
-                "t": "見知らぬ部屋",
+            "3157617F4ADDC74E867AE516125C44791C75": {
+                "t": "てすと3",
                 "d": {
                     "cid": 0,
-                    "eid": "F69C1A4E670C21466E7A16570733655F6679"
+                    "eid": "6E45A12044D195495788B17847BBEB6D436D"
+                }
+            },
+            "53CB1715131B784A040B337343454535FC9B": {
+                "t": "てすと4",
+                "d": {
+                    "cid": 0,
+                    "eid": "C5866348880613494D8A83279AF9F11CFA68"
+                }
+            },
+            "BABBF19547EBC0442769F507345DBD1C2D96": {
+                "t": "教室のような小さな部屋だ。\n教壇にはノートが置かれている。\n手前側と奥側に教室らしい鉄製の引き戸がある。",
+                "d": {
+                    "cid": 0,
+                    "eid": "6FDFCD8F12A57640464A382403572CB354D7"
+                }
+            },
+            "E5141DFA9FBBC246F95968E727712C10A961": {
+                "t": "手前の扉から出る",
+                "d": {
+                    "eid": "9589A50951D9D44B9B2AC5D41BB4E301042C"
+                }
+            },
+            "00CEB393844BC6477E6928C33EC600FBF9C8": {
+                "t": "奥の扉から出る",
+                "d": {
+                    "eid": "759E9A5A6A7C4549208A5D56ED15181F9783"
+                }
+            },
+            "33C95320161EB6402D3AE69505B98FBDB44D": {
+                "t": "教壇のノートを調べる",
+                "d": {
+                    "eid": "1B39E5222FC0E247557A49929E1CB205BFAE"
+                }
+            },
+            "9B815FAA51154542BE0A6FB700862EB96C5D": {
+                "t": "……もうお終いだ。\n断続的に響く生徒たちの絶叫と、四肢や首をもがれて絶命した無残な遺体がそれを示している。",
+                "d": {
+                    "cid": 0,
+                    "eid": "22CC1FCA1CC8304EF669AAE5E93B5CEFFC19"
+                }
+            },
+            "9CCDA9316C37884C5E28CE53AA70DD328180": {
+                "t": "「家喰い」は背後から突然襲ってくる。\n常に背後に警戒し、\"予兆\"を感じたら、速やかに他の部屋に避難すること。\n少しでも遅れたら命はない……",
+                "d": {
+                    "cid": 0,
+                    "eid": "65CFD4536842A64913192E737C24AE30C6A7"
+                }
+            },
+            "8853B31A6C11144AE3588F557164D608D8E9": {
+                "t": "現在地:{LT:1}",
+                "d": {
+                    "eid": "78473A7B56863841F159FE242E07D71140F8"
+                }
+            },
+            "0E4051521CFAC7459F6967D741DE55999E4C": {
+                "t": "この校舎は「家喰い」の犠牲になったのだ。\n噂程度には耳にしたことがあったが、まさか本当に実在したなんて。",
+                "d": {
+                    "cid": 0,
+                    "eid": "0455D7E03EB863460F490E544EA7C2834DF4"
+                }
+            },
+            "430FAB9D65E4C14DE409DD87BE137959A670": {
+                "t": "表紙の下半分に血が付着しているノートを手にとって開いた。\n震える字で何かが綴られている。",
+                "d": {
+                    "cid": 0,
+                    "eid": "82EB311E37CBC5467419CD12F47ABFFBCA23"
+                }
+            },
+            "A0D324C784EA9540A389D5877FED8677E509": {
+                "t": "部屋同士の繋がりが家喰いによってめちゃくちゃにされた今、出口も分からず\nもう生きて外には",
+                "d": {
+                    "cid": 0,
+                    "eid": "DA85ED4638A494420258C177E2D37E78010D"
+                }
+            },
+            "C62DE89999A2214EFA58C5A1D807AE4059C8": {
+                "t": "ここで終わっている。",
+                "d": {
+                    "cid": 0,
+                    "eid": "A136B1F67F70E84BAD5A441203F66830793D"
+                }
+            },
+            "4725C3FB52CCC64EAA6B16B7A1E929EC242F": {
+                "t": "「家喰い」とはなんだろう。\n今起こっている元凶のように思える。\nだとしたら、事態は尋常ではない。",
+                "d": {
+                    "cid": 0,
+                    "eid": "433E2DA78AB42642142A7A522D5054A79BF0"
+                }
+            },
+            "BF45F3AB01AFB5402E2956F1B00D70745EBA": {
+                "t": "無理に探索はせず、早く外に出た方がいいかもしれない。\n来た道を戻って、1Fの廊下からリビングに出れば外に出られるはずだ。\n背後にも注意しないと……\n（※探索中、右クリックで常に背後を確認できます）",
+                "d": {
+                    "cid": 0,
+                    "eid": "E471C4A43EBED549012B7564F1182F77BB6B"
                 }
             }
         },
         "commands": [
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "E5C0668121C081447F6ABDD52735831D9276",
+                    "parameters": {
+                        "values": [
+                            "入口の教室",
+                            90,
+                            "snowuta_024b"
+                        ]
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "08B83B4766A8194E921BB820E2CACAD16360",
+                "indent": 0
+            },
+            {
+                "id": "vn.ChangeBackground",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "graphic": {
+                        "name": "snowuta_024b",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    },
+                    "layer": 0,
+                    "duration": 0.06,
+                    "waitForCompletion": 0,
+                    "blendMode": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "loopVertical": 0,
+                    "loopHorizontal": 0,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 0
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "6B7D15A80F0FB8419B7A38E81EE1E2B38559",
+                "indent": 0
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "0"
+                },
+                "uid": "AA57A8D73439414780388934A82854AE5AD0",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 0,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "BABBF19547EBC0442769F507345DBD1C2D96",
+                        "defaultText": "教室のような小さな部屋だ。\n教壇にはノートが置かれている。\n手前側と奥側に教室らしい鉄製の引き戸がある。"
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 0
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "6FDFCD8F12A57640464A382403572CB354D7",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.WaitCommand",
+                "params": {
+                    "time": 30
+                },
+                "uid": "985C1A594A40D541475AD1E8466788A33729",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "1",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": "E5141DFA9FBBC246F95968E727712C10A961",
+                        "defaultText": "手前の扉から出る"
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 0,
+                    "box": {
+                        "x": 0,
+                        "y": 0,
+                        "size": {
+                            "width": 300,
+                            "height": 50
+                        }
+                    },
+                    "defaultChoice": 0
+                },
+                "uid": "9589A50951D9D44B9B2AC5D41BB4E301042C",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "2",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": {
+                            "uid": "34063E3A77B0C343B508B66021A3EA7C6B67",
+                            "name": "自宅の階段"
+                        }
+                    },
+                    "text": {
+                        "lcId": "00CEB393844BC6477E6928C33EC600FBF9C8",
+                        "defaultText": "奥の扉から出る"
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 0,
+                    "box": {
+                        "x": 0,
+                        "y": 0,
+                        "size": {
+                            "width": 300,
+                            "height": 50
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "759E9A5A6A7C4549208A5D56ED15181F9783",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "3",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": {
+                            "uid": "34063E3A77B0C343B508B66021A3EA7C6B67",
+                            "name": "自宅の階段"
+                        }
+                    },
+                    "text": {
+                        "lcId": "33C95320161EB6402D3AE69505B98FBDB44D",
+                        "defaultText": "教壇のノートを調べる"
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 0,
+                    "box": {
+                        "x": 0,
+                        "y": 0,
+                        "size": {
+                            "width": 300,
+                            "height": 50
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "1B39E5222FC0E247557A49929E1CB205BFAE",
+                "indent": 0
+            },
+            {
+                "id": "vn.ShowChoices",
+                "params": {},
+                "uid": "186E6CE920EDF748EC48A7284421DA215100",
+                "indent": 0
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "1"
+                },
+                "uid": "643FC3352F62C44E515BE7163F2648E17F76",
+                "indent": 0
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "2"
+                },
+                "uid": "E4CCB9C020CA514CF3787D0346F3474FB05C",
+                "indent": 0
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "34063E3A77B0C343B508B66021A3EA7C6B67",
+                        "name": "自宅の階段"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "7672A2FF34C2E249AE8BCC031852B5107544",
+                "indent": 0
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "3"
+                },
+                "uid": "089D837D02CAC94C324B0073BD99AFD1597C",
+                "indent": 0
+            },
+            {
+                "id": "gs.ClearMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 0,
+                    "fieldFlags": {
+                        "duration": 0
+                    }
+                },
+                "uid": "F38BAA7B055E8541F38AA4C9A647E771AF68",
+                "indent": 0
+            },
             {
                 "id": "gs.ShowMessage",
                 "params": {
@@ -35,8 +430,8 @@
                         }
                     },
                     "message": {
-                        "lcId": "89E71F9B3E9407465B4B02A394436500B217",
-                        "defaultText": "見知らぬ部屋"
+                        "lcId": "430FAB9D65E4C14DE409DD87BE137959A670",
+                        "defaultText": "表紙の下半分に血が付着しているノートを手にとって開いた。\n震える字で何かが綴られている。"
                     },
                     "position": 0,
                     "characterId": 0,
@@ -47,30 +442,432 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "F69C1A4E670C21466E7A16570733655F6679",
+                "uid": "82EB311E37CBC5467419CD12F47ABFFBCA23",
                 "indent": 0,
                 "expanded": true
             },
             {
-                "id": "vn.ChangeScene",
+                "id": "gs.MessageSettings",
                 "params": {
-                    "scene": {
-                        "uid": "9B37203A5E53A64C38594F804E49DC3B5A1C",
-                        "name": "タイトルシーン"
+                    "useCharacterColor": 0,
+                    "paragraphSpacing": 0,
+                    "backlog": 1,
+                    "bold": 0,
+                    "italic": 0,
+                    "linePadding": 6,
+                    "lineHeight": 0,
+                    "lineSpacing": 0,
+                    "smallCaps": 0,
+                    "underline": 0,
+                    "strikeThrough": 0,
+                    "autoErase": 1,
+                    "waitAtEnd": 1,
+                    "font": "minamoji",
+                    "size": 40,
+                    "outline": 0,
+                    "outlineSize": 4,
+                    "shadow": 0,
+                    "shadowOffsetX": 1,
+                    "shadowOffsetY": 1,
+                    "color": {
+                        "red": 255,
+                        "green": 255,
+                        "blue": 255,
+                        "alpha": 255
                     },
-                    "savePrevious": 0,
-                    "erasePictures": 0,
-                    "eraseTexts": 0,
-                    "eraseVideos": 0,
+                    "outlineColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "shadowColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "fieldFlags": {
+                        "autoErase": 1,
+                        "waitAtEnd": 1,
+                        "backlog": 1,
+                        "font": 0,
+                        "size": 1
+                    }
+                },
+                "uid": "FE258BA67658D6412D58F316F6BF0A0FBE0A",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "9B815FAA51154542BE0A6FB700862EB96C5D",
+                        "defaultText": "……もうお終いだ。\n断続的に響く生徒たちの絶叫と、四肢や首をもがれて絶命した無残な遺体がそれを示している。"
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "22CC1FCA1CC8304EF669AAE5E93B5CEFFC19",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "0E4051521CFAC7459F6967D741DE55999E4C",
+                        "defaultText": "この校舎は「家喰い」の犠牲になったのだ。\n噂程度には耳にしたことがあったが、まさか本当に実在したなんて。"
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "0455D7E03EB863460F490E544EA7C2834DF4",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "9CCDA9316C37884C5E28CE53AA70DD328180",
+                        "defaultText": "「家喰い」は背後から突然襲ってくる。\n常に背後に警戒し、\"予兆\"を感じたら、速やかに他の部屋に避難すること。\n少しでも遅れたら命はない……"
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "65CFD4536842A64913192E737C24AE30C6A7",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "A0D324C784EA9540A389D5877FED8677E509",
+                        "defaultText": "部屋同士の繋がりが家喰いによってめちゃくちゃにされた今、出口も分からず\nもう生きて外には"
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "DA85ED4638A494420258C177E2D37E78010D",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.MessageSettings",
+                "params": {
+                    "useCharacterColor": 0,
+                    "paragraphSpacing": 0,
+                    "backlog": 1,
+                    "bold": 0,
+                    "italic": 0,
+                    "linePadding": 6,
+                    "lineHeight": 0,
+                    "lineSpacing": 0,
+                    "smallCaps": 0,
+                    "underline": 0,
+                    "strikeThrough": 0,
+                    "autoErase": 1,
+                    "waitAtEnd": 1,
+                    "font": "Verdana",
+                    "size": 40,
+                    "outline": 0,
+                    "outlineSize": 4,
+                    "shadow": 0,
+                    "shadowOffsetX": 1,
+                    "shadowOffsetY": 1,
+                    "color": {
+                        "red": 255,
+                        "green": 255,
+                        "blue": 255,
+                        "alpha": 255
+                    },
+                    "outlineColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "shadowColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "fieldFlags": {
+                        "autoErase": 1,
+                        "waitAtEnd": 1,
+                        "backlog": 1,
+                        "font": 0,
+                        "size": 1
+                    }
+                },
+                "uid": "FF5D7D4335C1674B568979318DDAA2827CCF",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "C62DE89999A2214EFA58C5A1D807AE4059C8",
+                        "defaultText": "ここで終わっている。"
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "A136B1F67F70E84BAD5A441203F66830793D",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.Condition",
+                "params": {
+                    "variable": {
+                        "name": "残されたノート",
+                        "index": 20,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "numberValue": 0,
+                    "textValue": "",
+                    "switchValue": 0,
+                    "valueType": 1,
+                    "operation": 0,
                     "previewBackground": {
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "B21A9D24575A9748FB4A10167C24A72AFE79",
+                "uid": "23DBCA68100875469928F93199F511527149",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "4725C3FB52CCC64EAA6B16B7A1E929EC242F",
+                        "defaultText": "「家喰い」とはなんだろう。\n今起こっている元凶のように思える。\nだとしたら、事態は尋常ではない。"
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "433E2DA78AB42642142A7A522D5054A79BF0",
+                "indent": 1,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "BF45F3AB01AFB5402E2956F1B00D70745EBA",
+                        "defaultText": "無理に探索はせず、早く外に出た方がいいかもしれない。\n来た道を戻って、1Fの廊下からリビングに出れば外に出られるはずだ。\n背後にも注意しないと……\n（※探索中、右クリックで常に背後を確認できます）"
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "E471C4A43EBED549012B7564F1182F77BB6B",
+                "indent": 1,
+                "expanded": true
+            },
+            {
+                "id": "gs.ChangeBooleanVariables",
+                "params": {
+                    "target": 0,
+                    "targetReferenceDomain": "com.degica.vnm.default",
+                    "targetReference": {
+                        "index": 0,
+                        "scope": 1
+                    },
+                    "targetVariable": {
+                        "name": "残されたノート",
+                        "index": 20,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "targetRangeScope": 0,
+                    "rangeStart": 0,
+                    "rangeEnd": 0,
+                    "value": 1,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "4CEE00792542034DF819BA43736B0709F1F2",
+                "indent": 1
+            },
+            {
+                "id": "gs.JumpToLabel",
+                "params": {
+                    "name": "0"
+                },
+                "uid": "E94F65FB8C7FF347780BE03528BD69047079",
                 "indent": 0
             }
         ],
-        "livePreviewDisabled": false
+        "livePreviewDisabled": false,
+        "listVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "booleanVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "numberVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "stringVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ]
     },
     "summary": [
         "name",

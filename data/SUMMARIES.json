@@ -5,7 +5,7 @@
             "items": {
                 "name": "HomeEater",
                 "type": "project",
-                "version": "1.0.1030"
+                "version": "1.0.1034"
             }
         },
         "07DD714151A3B2EA": {
@@ -300,9 +300,9 @@
         },
         "5FDD1950K9FA1A4BCCSB00CEE54C8BC8AE54": {
             "items": {
-                "name": "Unnamed",
+                "name": "起動直後の処理",
                 "type": "data_record",
-                "order": 1
+                "order": 0
             }
         },
         "2C26A99BK03D7A4EC4SAA29EE1DB000A7E1E": {
@@ -542,7 +542,7 @@
         },
         "BA77A09EK7F14A4C2BSA11BE8CC099F00810": {
             "items": {
-                "name": "Unnamed",
+                "name": "ノート",
                 "type": "data_record",
                 "order": 0
             }
@@ -3003,7 +3003,7 @@
         },
         "9B37203A5E53A64C38594F804E49DC3B5A1C": {
             "items": {
-                "name": "タイトルシーン",
+                "name": "タイトル",
                 "type": "vn.scene",
                 "parentId": "B5CF99B7179AA74EDB190CE48F160D834A9E",
                 "chapterUid": "B5CF99B7179AA74EDB190CE48F160D834A9E",
@@ -3019,7 +3019,7 @@
         },
         "1A85B0AA829B4140124B21965580C3652A8A": {
             "items": {
-                "name": "オープニングシーン",
+                "name": "オープニング",
                 "type": "vn.scene",
                 "parentId": "E62F57F85C3C334D8F7A0207182B34C5D1DF",
                 "chapterUid": "E62F57F85C3C334D8F7A0207182B34C5D1DF",
@@ -3035,7 +3035,7 @@
         },
         "37B94D604A93D04CE12B37E66CA595F1DEF1": {
             "items": {
-                "name": "見知らぬ部屋",
+                "name": "入口の教室",
                 "type": "vn.scene",
                 "parentId": "6F9EC9FA64C2B649204BCB920C270E253970",
                 "chapterUid": "6F9EC9FA64C2B649204BCB920C270E253970",
@@ -3046,7 +3046,137 @@
             "items": {
                 "name": "エンディング",
                 "type": "vn.chapter",
+                "order": 5
+            }
+        },
+        "D9B520885F203440528B9F511042FA6CE4EE": {
+            "items": {
+                "name": "オープニング終了",
+                "type": "vn.scene",
+                "parentId": "E62F57F85C3C334D8F7A0207182B34C5D1DF",
+                "chapterUid": "E62F57F85C3C334D8F7A0207182B34C5D1DF",
+                "order": 1
+            }
+        },
+        "D436D5BA738AE548392A3927039A41CB0001": {
+            "items": {
+                "name": "エンディング",
+                "type": "vn.scene",
+                "parentId": "CBCBFE242564E8490B5A0FC3D7917B909B45",
+                "chapterUid": "CBCBFE242564E8490B5A0FC3D7917B909B45",
+                "order": 0
+            }
+        },
+        "D72752099E0F1849A22ACBC8DCC208734E97": {
+            "items": {
+                "name": "メッセージエリア設定",
+                "type": "data_record",
+                "order": 1
+            }
+        },
+        "C086F0B00B9556467C4BE33844EC2E8D40F8": {
+            "items": {
+                "name": "エンドロール",
+                "type": "vn.scene",
+                "parentId": "CBCBFE242564E8490B5A0FC3D7917B909B45",
+                "chapterUid": "CBCBFE242564E8490B5A0FC3D7917B909B45",
+                "order": 1
+            }
+        },
+        "34063E3A77B0C343B508B66021A3EA7C6B67": {
+            "items": {
+                "name": "自宅の階段(コピー用)",
+                "type": "vn.scene",
+                "parentId": "6F9EC9FA64C2B649204BCB920C270E253970",
+                "chapterUid": "6F9EC9FA64C2B649204BCB920C270E253970",
+                "order": 1
+            }
+        },
+        "E5C0668121C081447F6ABDD52735831D9276": {
+            "items": {
+                "name": "異なる部屋に移動したとき",
+                "type": "data_record",
+                "order": 2
+            }
+        },
+        "F36FADCB1234E1450019972794C9CBD8F74C": {
+            "items": {
+                "name": "家喰い顕現",
+                "type": "data_record",
                 "order": 4
+            }
+        },
+        "6D28AEE827572248F51A5996A4D09CFF6AAF": {
+            "items": {
+                "name": "背後を確認する",
+                "type": "data_record",
+                "order": 6
+            }
+        },
+        "E91554FD3FB5744F5F49DBC66AF22E77243A": {
+            "items": {
+                "name": "家喰い出現カウント",
+                "type": "data_record",
+                "order": 7
+            }
+        },
+        "6CBA542B28DD824D96982D856C90ED1A76DC": {
+            "items": {
+                "name": "自分の部屋",
+                "type": "vn.scene",
+                "parentId": "6F9EC9FA64C2B649204BCB920C270E253970",
+                "chapterUid": "6F9EC9FA64C2B649204BCB920C270E253970",
+                "order": 2
+            }
+        },
+        "4BA07A163528974A177A97D83F978B6B96C5": {
+            "items": {
+                "name": "ゲームオーバー",
+                "type": "data_record",
+                "order": 8
+            }
+        },
+        "E2FA14814DFCE745899B05B15F24920FFB58": {
+            "items": {
+                "name": "自宅の廊下",
+                "type": "vn.scene",
+                "parentId": "6F9EC9FA64C2B649204BCB920C270E253970",
+                "chapterUid": "6F9EC9FA64C2B649204BCB920C270E253970",
+                "order": 3
+            }
+        },
+        "6FDEC6536D57E646C21864F46836168D36FF": {
+            "items": {
+                "name": "謎の石室",
+                "type": "vn.scene",
+                "parentId": "6F9EC9FA64C2B649204BCB920C270E253970",
+                "chapterUid": "6F9EC9FA64C2B649204BCB920C270E253970",
+                "order": 4
+            }
+        },
+        "B872CB7B8E02694C001AD6569CAEE2395A98": {
+            "items": {
+                "name": "トイレ",
+                "type": "vn.scene",
+                "parentId": "6F9EC9FA64C2B649204BCB920C270E253970",
+                "chapterUid": "6F9EC9FA64C2B649204BCB920C270E253970",
+                "order": 5
+            }
+        },
+        "EB0027538006A542F15B8511E2ED1555EB60": {
+            "items": {
+                "name": "女生徒の追憶",
+                "type": "vn.scene",
+                "parentId": "B872CB7B8E02694C001AD6569CAEE2395A98",
+                "chapterUid": "6F9EC9FA64C2B649204BCB920C270E253970",
+                "order": 0
+            }
+        },
+        "92609F3200271441DF9849927C4EFCE6DFEF": {
+            "items": {
+                "name": "部屋の中でシーンを切り替えたとき",
+                "type": "data_record",
+                "order": 3
             }
         }
     }

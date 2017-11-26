@@ -3,8 +3,16 @@
     "items": {
         "type": "resource_table",
         "resources": {
-            "Graphics/Backgrounds/snowuta_022s_19201080": ".png",
-            "Graphics/Backgrounds/snowuta_022_19201080": ".png",
+            "Graphics/Backgrounds/kabegiwa37": ".png",
+            "Graphics/Backgrounds/kadoku_011y": ".png",
+            "Graphics/Backgrounds/snowuta_020n2": ".png",
+            "Graphics/Backgrounds/snowuta_022": ".png",
+            "Graphics/Backgrounds/snowuta_022s": ".png",
+            "Graphics/Backgrounds/snowuta_024b": ".png",
+            "Graphics/Backgrounds/snowuta_025_ishi": ".png",
+            "Graphics/Backgrounds/snowuta_029": ".png",
+            "Graphics/Backgrounds/snowuta_032": ".png",
+            "Graphics/Backgrounds/twhouse003n": ".png",
             "Graphics/Pictures/m-arrow": ".png",
             "Graphics/Pictures/m-arrow-disabled": ".png",
             "Graphics/Pictures/m-diamond-large-off": ".png",
@@ -29,10 +37,12 @@
             "Graphics/Pictures/skin-tile": ".png",
             "Graphics/Pictures/message_caret": ".png",
             "Graphics/Pictures/thumbnailshadow": ".png",
+            "Graphics/Pictures/eye": ".png",
+            "Graphics/Pictures/face_6": ".png",
+            "Graphics/Pictures/GameOver": ".png",
+            "Graphics/Pictures/horrorBack01": ".png",
+            "Graphics/Pictures/kabegiwa37": ".png",
             "Graphics/Pictures/web-start-screen": ".png",
-            "Graphics/Icons/Germany": ".png",
-            "Graphics/Icons/Japan": ".png",
-            "Graphics/Icons/United-Kingdom": ".png",
             "Graphics/Fonts/minamoji": ".woff",
             "Audio/Music/300hz_noise": [
                 ".ogg"
@@ -211,13 +221,19 @@
             "Audio/Music/horror_piano chord1": [
                 ".ogg"
             ],
+            "Audio/Sounds/dark_atmosphere": [
+                ".ogg"
+            ],
             "Audio/Sounds/dark_attack": [
                 ".ogg"
             ],
-            "Audio/Sounds/terror_attack": [
+            "Audio/Sounds/footsteps_of the_past": [
                 ".ogg"
             ],
-            "Audio/Sounds/footsteps_of the_past": [
+            "Audio/Sounds/suspicion1": [
+                ".ogg"
+            ],
+            "Audio/Sounds/terror_attack": [
                 ".ogg"
             ],
             "Audio/Sounds/choice_cancel_02": [

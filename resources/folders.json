@@ -11,16 +11,64 @@
         "path": "Graphics/Backgrounds",
         "resources": [
             {
-                "name": "snowuta_022s_19201080",
+                "name": "kabegiwa37",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 1653456
+            },
+            {
+                "name": "kadoku_011y",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 1125568
+            },
+            {
+                "name": "snowuta_020n2",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 404483
+            },
+            {
+                "name": "snowuta_022",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 115049
+            },
+            {
+                "name": "snowuta_022s",
                 "type": "graphic",
                 "isa": null,
                 "_UID": 140117
             },
             {
-                "name": "snowuta_022_19201080",
+                "name": "snowuta_024b",
                 "type": "graphic",
                 "isa": null,
-                "_UID": 115049
+                "_UID": 1682408
+            },
+            {
+                "name": "snowuta_025_ishi",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 7732369
+            },
+            {
+                "name": "snowuta_029",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 670613
+            },
+            {
+                "name": "snowuta_032",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 1080751
+            },
+            {
+                "name": "twhouse003n",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 391115
             }
         ]
     },
@@ -41,49 +89,57 @@
                                 "name": "m-arrow",
                                 "type": "graphic",
                                 "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
-                                "isa": null
+                                "isa": null,
+                                "_UID": 33956593
                             },
                             {
                                 "name": "m-arrow-disabled",
                                 "type": "graphic",
                                 "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
-                                "isa": null
+                                "isa": null,
+                                "_UID": 33956595
                             },
                             {
                                 "name": "m-diamond-large-off",
                                 "type": "graphic",
                                 "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
-                                "isa": null
+                                "isa": null,
+                                "_UID": 33956597
                             },
                             {
                                 "name": "m-diamond-large-on",
                                 "type": "graphic",
                                 "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
-                                "isa": null
+                                "isa": null,
+                                "_UID": 33956599
                             },
                             {
                                 "name": "m-diamond-small-off",
                                 "type": "graphic",
                                 "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
-                                "isa": null
+                                "isa": null,
+                                "_UID": 33956601
                             },
                             {
                                 "name": "m-diamond-small-on",
                                 "type": "graphic",
                                 "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
-                                "isa": null
+                                "isa": null,
+                                "_UID": 33956603
                             },
                             {
                                 "name": "msg-diamond-small-off",
                                 "type": "graphic",
                                 "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
-                                "isa": null
+                                "isa": null,
+                                "_UID": 33956605
                             },
                             {
                                 "name": "msg-diamond-small-on",
                                 "type": "graphic",
                                 "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
-                                "isa": null
+                                "isa": null,
+                                "_UID": 33956607
                             }
                         ],
                         "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
@@ -207,6 +263,36 @@
                 "_UID": 130587
             },
             {
+                "name": "eye",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 622488
+            },
+            {
+                "name": "face_6",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 34851245
+            },
+            {
+                "name": "GameOver",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 1745894
+            },
+            {
+                "name": "horrorBack01",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 1793444
+            },
+            {
+                "name": "kabegiwa37",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 444948
+            },
+            {
                 "name": "web-start-screen",
                 "type": "graphic",
                 "isa": null,
@@ -216,26 +302,7 @@
     },
     {
         "path": "Graphics/Icons",
-        "resources": [
-            {
-                "name": "Germany",
-                "type": "graphic",
-                "isa": null,
-                "_UID": 247792
-            },
-            {
-                "name": "Japan",
-                "type": "graphic",
-                "isa": null,
-                "_UID": 247794
-            },
-            {
-                "name": "United-Kingdom",
-                "type": "graphic",
-                "isa": null,
-                "_UID": 247796
-            }
-        ]
+        "resources": []
     },
     {
         "path": "Graphics/Masks",
@@ -246,7 +313,9 @@
         "resources": [
             {
                 "name": "minamoji",
-                "type": "graphic"
+                "type": "graphic",
+                "isa": null,
+                "_UID": 1129057
             }
         ]
     },
@@ -626,6 +695,18 @@
             },
             {
                 "name": "footsteps_of the_past",
+                "type": "audio",
+                "isa": null,
+                "_UID": 1132111
+            },
+            {
+                "name": "dark_atmosphere",
+                "type": "audio",
+                "isa": null,
+                "_UID": 356928
+            },
+            {
+                "name": "suspicion1",
                 "type": "audio"
             },
             {

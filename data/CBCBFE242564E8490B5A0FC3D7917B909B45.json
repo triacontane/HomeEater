@@ -1,10 +1,11 @@
 {
     "uid": "CBCBFE242564E8490B5A0FC3D7917B909B45",
     "isLoaded": true,
-    "lastModificationTime": null,
+    "lastModificationTime": 0,
     "items": {
-        "type": "vn.chapter",
         "name": "エンディング",
+        "type": "vn.chapter",
+        "order": 5,
         "commands": [
             {
                 "id": "vn.Chapter",
@@ -14,8 +15,7 @@
                 },
                 "indent": 0
             }
-        ],
-        "order": 4
+        ]
     },
     "summary": [
         "name",

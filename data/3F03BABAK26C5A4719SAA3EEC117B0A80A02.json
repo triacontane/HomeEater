@@ -9,7 +9,14 @@
             {
                 "name": "My Per",
                 "scope": 2,
-                "index": 0
+                "index": 0,
+                "domain": "com.degica.vnm.default"
+            },
+            {
+                "name": "test",
+                "index": 1,
+                "scope": 2,
+                "domain": "com.degica.vnm.default"
             }
         ],
         "strings": [
@@ -24,6 +31,12 @@
                 "name": "オープニング終了",
                 "scope": 2,
                 "index": 0,
+                "domain": "com.degica.vnm.default"
+            },
+            {
+                "name": "セーブデータ作成",
+                "index": 1,
+                "scope": 2,
                 "domain": "com.degica.vnm.default"
             }
         ],

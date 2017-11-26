@@ -56,9 +56,11 @@
                 "scope": 1
             },
             {
-                "name": "",
+                "name": "家喰い出現までの時間",
                 "index": 9,
-                "scope": 1
+                "scope": 1,
+                "domain": "com.degica.vnm.default",
+                "changed": true
             },
             {
                 "name": "",
@@ -513,37 +515,343 @@
         ],
         "strings": [
             {
-                "name": "",
+                "name": "シーン名称（出力用）",
                 "scope": 1,
                 "index": 0,
+                "changed": true,
+                "domain": "com.degica.vnm.default"
+            },
+            {
+                "name": "",
+                "index": 1,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 2,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 3,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 4,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 5,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 6,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 7,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 8,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "背景画像",
+                "index": 9,
+                "scope": 1,
+                "domain": "com.degica.vnm.default",
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 10,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 11,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 12,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 13,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 14,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 15,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 16,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 17,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 18,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 19,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 20,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 21,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 22,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 23,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 24,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 25,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 26,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 27,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 28,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 29,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 30,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 31,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 32,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 33,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 34,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 35,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 36,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 37,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 38,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 39,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 40,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 41,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 42,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 43,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 44,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 45,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 46,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 47,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 48,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 49,
+                "scope": 1,
                 "changed": true
             }
         ],
         "booleans": [
             {
-                "name": "My Switch",
+                "name": "ゲーム開始",
                 "scope": 1,
-                "index": 0
+                "index": 0,
+                "domain": "com.degica.vnm.default",
+                "changed": true
             },
             {
-                "name": "",
+                "name": "後ろを振り返り中でない",
                 "index": 1,
-                "scope": 1
+                "scope": 1,
+                "domain": "com.degica.vnm.default",
+                "changed": true
             },
             {
-                "name": "",
+                "name": "ゲームオーバー",
                 "index": 2,
-                "scope": 1
+                "scope": 1,
+                "domain": "com.degica.vnm.default",
+                "changed": true
             },
             {
-                "name": "",
+                "name": "振り返り禁止",
                 "index": 3,
-                "scope": 1
+                "scope": 1,
+                "domain": "com.degica.vnm.default",
+                "changed": true
             },
             {
-                "name": "",
+                "name": "部屋内部でのシーン切り替え",
                 "index": 4,
-                "scope": 1
+                "scope": 1,
+                "domain": "com.degica.vnm.default",
+                "changed": true
             },
             {
                 "name": "",
@@ -619,11 +927,256 @@
                 "name": "",
                 "index": 19,
                 "scope": 1
+            },
+            {
+                "name": "残されたノート",
+                "index": 20,
+                "scope": 1,
+                "domain": "com.degica.vnm.default",
+                "changed": true
+            },
+            {
+                "name": "謎の地下墓地",
+                "index": 21,
+                "scope": 1,
+                "changed": true,
+                "domain": "com.degica.vnm.default"
+            },
+            {
+                "name": "トイレ",
+                "index": 22,
+                "scope": 1,
+                "changed": true,
+                "domain": "com.degica.vnm.default"
+            },
+            {
+                "name": "図書室のカギの情報",
+                "index": 23,
+                "scope": 1,
+                "changed": true,
+                "domain": "com.degica.vnm.default"
+            },
+            {
+                "name": "",
+                "index": 24,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 25,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 26,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 27,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 28,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 29,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 30,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 31,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 32,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 33,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 34,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 35,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 36,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 37,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 38,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 39,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "アイテム：図書室のカギ",
+                "index": 40,
+                "scope": 1,
+                "domain": "com.degica.vnm.default",
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 41,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 42,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 43,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 44,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 45,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 46,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 47,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 48,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 49,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 50,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 51,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 52,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 53,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 54,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 55,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 56,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 57,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 58,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 59,
+                "scope": 1,
+                "changed": true
             }
         ],
         "numbersSizeChanged": false,
         "stringsSizeChanged": false,
-        "booleansSizeChanged": false,
+        "booleansSizeChanged": true,
         "lists": [
             {
                 "name": "My List",
