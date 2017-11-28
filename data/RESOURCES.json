@@ -5,14 +5,17 @@
         "resources": {
             "Graphics/Backgrounds/kabegiwa37": ".png",
             "Graphics/Backgrounds/kadoku_011y": ".png",
+            "Graphics/Backgrounds/kadoku_014n": ".png",
             "Graphics/Backgrounds/snowuta_020n2": ".png",
             "Graphics/Backgrounds/snowuta_022": ".png",
             "Graphics/Backgrounds/snowuta_022s": ".png",
             "Graphics/Backgrounds/snowuta_024b": ".png",
             "Graphics/Backgrounds/snowuta_025_ishi": ".png",
+            "Graphics/Backgrounds/snowuta_027_ishi": ".png",
             "Graphics/Backgrounds/snowuta_029": ".png",
             "Graphics/Backgrounds/snowuta_032": ".png",
             "Graphics/Backgrounds/twhouse003n": ".png",
+            "Graphics/Backgrounds/twroom005n": ".png",
             "Graphics/Pictures/m-arrow": ".png",
             "Graphics/Pictures/m-arrow-disabled": ".png",
             "Graphics/Pictures/m-diamond-large-off": ".png",
@@ -38,10 +41,13 @@
             "Graphics/Pictures/message_caret": ".png",
             "Graphics/Pictures/thumbnailshadow": ".png",
             "Graphics/Pictures/eye": ".png",
+            "Graphics/Pictures/face_1": ".png",
             "Graphics/Pictures/face_6": ".png",
+            "Graphics/Pictures/face_8": ".png",
             "Graphics/Pictures/GameOver": ".png",
             "Graphics/Pictures/horrorBack01": ".png",
             "Graphics/Pictures/kabegiwa37": ".png",
+            "Graphics/Pictures/key_icon": ".png",
             "Graphics/Pictures/web-start-screen": ".png",
             "Graphics/Fonts/minamoji": ".woff",
             "Audio/Music/300hz_noise": [
@@ -225,6 +231,9 @@
                 ".ogg"
             ],
             "Audio/Sounds/dark_attack": [
+                ".ogg"
+            ],
+            "Audio/Sounds/death_sound3": [
                 ".ogg"
             ],
             "Audio/Sounds/footsteps_of the_past": [

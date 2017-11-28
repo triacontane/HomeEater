@@ -47,7 +47,7 @@
                     "params": {
                         "graphic": null,
                         "vague": 1,
-                        "duration": 0,
+                        "duration": 0.06,
                         "fieldFlags": {
                             "graphic": 1,
                             "vague": 0,

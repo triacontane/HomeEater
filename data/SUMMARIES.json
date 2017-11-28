@@ -3085,7 +3085,7 @@
         },
         "34063E3A77B0C343B508B66021A3EA7C6B67": {
             "items": {
-                "name": "自宅の階段(コピー用)",
+                "name": "自宅の階段",
                 "type": "vn.scene",
                 "parentId": "6F9EC9FA64C2B649204BCB920C270E253970",
                 "chapterUid": "6F9EC9FA64C2B649204BCB920C270E253970",
@@ -3177,6 +3177,78 @@
                 "name": "部屋の中でシーンを切り替えたとき",
                 "type": "data_record",
                 "order": 3
+            }
+        },
+        "AA14F4061CD7414BC33903265D43BD357FD4": {
+            "items": {
+                "name": "どこかのアパート",
+                "type": "vn.scene",
+                "parentId": "6F9EC9FA64C2B649204BCB920C270E253970",
+                "chapterUid": "6F9EC9FA64C2B649204BCB920C270E253970",
+                "order": 6
+            }
+        },
+        "91EEDDD355C0144AEB488D98B39304B9A524": {
+            "items": {
+                "name": "アパートのブログ記事",
+                "type": "vn.scene",
+                "parentId": "AA14F4061CD7414BC33903265D43BD357FD4",
+                "chapterUid": "6F9EC9FA64C2B649204BCB920C270E253970",
+                "order": 0
+            }
+        },
+        "43B1015B17096045F00B67E0D711D404D28B": {
+            "items": {
+                "name": "学校の廊下",
+                "type": "vn.scene",
+                "parentId": "6F9EC9FA64C2B649204BCB920C270E253970",
+                "chapterUid": "6F9EC9FA64C2B649204BCB920C270E253970",
+                "order": 7
+            }
+        },
+        "FFEEFBC79282B147B59BAEF4DD536BF7906F": {
+            "items": {
+                "name": "図書室",
+                "type": "vn.scene",
+                "parentId": "6F9EC9FA64C2B649204BCB920C270E253970",
+                "chapterUid": "6F9EC9FA64C2B649204BCB920C270E253970",
+                "order": 8
+            }
+        },
+        "4C02A55A3EB7D3496B6BB55749F427D2B31C": {
+            "items": {
+                "name": "家喰いの文献",
+                "type": "vn.scene",
+                "parentId": "FFEEFBC79282B147B59BAEF4DD536BF7906F",
+                "chapterUid": "6F9EC9FA64C2B649204BCB920C270E253970",
+                "order": 0
+            }
+        },
+        "0883F9458D0F63448929EB707354FEDB71CD": {
+            "items": {
+                "name": "惨劇の風呂場",
+                "type": "vn.scene",
+                "parentId": "6F9EC9FA64C2B649204BCB920C270E253970",
+                "chapterUid": "6F9EC9FA64C2B649204BCB920C270E253970",
+                "order": 9
+            }
+        },
+        "914108BF354C864AE82B2782A6229445C973": {
+            "items": {
+                "name": "子どもの死体",
+                "type": "vn.scene",
+                "parentId": "0883F9458D0F63448929EB707354FEDB71CD",
+                "chapterUid": "6F9EC9FA64C2B649204BCB920C270E253970",
+                "order": 0
+            }
+        },
+        "C966E3AC2FAA21479819A5A8E05947684B55": {
+            "items": {
+                "name": "男の死体",
+                "type": "vn.scene",
+                "parentId": "6CBA542B28DD824D96982D856C90ED1A76DC",
+                "chapterUid": "6F9EC9FA64C2B649204BCB920C270E253970",
+                "order": 0
             }
         }
     }

@@ -854,9 +854,11 @@
                 "changed": true
             },
             {
-                "name": "",
+                "name": "カウントダウン停止",
                 "index": 5,
-                "scope": 1
+                "scope": 1,
+                "domain": "com.degica.vnm.default",
+                "changed": true
             },
             {
                 "name": "",
@@ -936,14 +938,14 @@
                 "changed": true
             },
             {
-                "name": "謎の地下墓地",
+                "name": "洞の説明",
                 "index": 21,
                 "scope": 1,
                 "changed": true,
                 "domain": "com.degica.vnm.default"
             },
             {
-                "name": "トイレ",
+                "name": "トイレの説明",
                 "index": 22,
                 "scope": 1,
                 "changed": true,
@@ -957,40 +959,46 @@
                 "domain": "com.degica.vnm.default"
             },
             {
-                "name": "",
+                "name": "風呂場のカギの情報",
                 "index": 24,
                 "scope": 1,
-                "changed": true
+                "changed": true,
+                "domain": "com.degica.vnm.default"
             },
             {
-                "name": "",
+                "name": "図書室を開く",
                 "index": 25,
                 "scope": 1,
-                "changed": true
+                "changed": true,
+                "domain": "com.degica.vnm.default"
             },
             {
-                "name": "",
+                "name": "風呂場を開く",
                 "index": 26,
                 "scope": 1,
-                "changed": true
+                "changed": true,
+                "domain": "com.degica.vnm.default"
             },
             {
-                "name": "",
+                "name": "危険な空気",
                 "index": 27,
                 "scope": 1,
-                "changed": true
+                "changed": true,
+                "domain": "com.degica.vnm.default"
             },
             {
-                "name": "",
+                "name": "大きな音",
                 "index": 28,
                 "scope": 1,
-                "changed": true
+                "changed": true,
+                "domain": "com.degica.vnm.default"
             },
             {
-                "name": "",
+                "name": "風呂場の説明",
                 "index": 29,
                 "scope": 1,
-                "changed": true
+                "changed": true,
+                "domain": "com.degica.vnm.default"
             },
             {
                 "name": "",
@@ -1060,16 +1068,18 @@
                 "changed": true
             },
             {
-                "name": "",
+                "name": "アイテム：風呂場のカギ",
                 "index": 41,
                 "scope": 1,
-                "changed": true
+                "changed": true,
+                "domain": "com.degica.vnm.default"
             },
             {
-                "name": "",
+                "name": "アイテム：子どもの死体",
                 "index": 42,
                 "scope": 1,
-                "changed": true
+                "changed": true,
+                "domain": "com.degica.vnm.default"
             },
             {
                 "name": "",
@@ -1176,7 +1186,7 @@
         ],
         "numbersSizeChanged": false,
         "stringsSizeChanged": false,
-        "booleansSizeChanged": true,
+        "booleansSizeChanged": false,
         "lists": [
             {
                 "name": "My List",

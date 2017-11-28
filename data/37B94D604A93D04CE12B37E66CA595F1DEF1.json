@@ -368,14 +368,6 @@
                 "indent": 0
             },
             {
-                "id": "gs.Label",
-                "params": {
-                    "name": "2"
-                },
-                "uid": "E4CCB9C020CA514CF3787D0346F3474FB05C",
-                "indent": 0
-            },
-            {
                 "id": "vn.ChangeScene",
                 "params": {
                     "scene": {
@@ -391,6 +383,32 @@
                     }
                 },
                 "uid": "7672A2FF34C2E249AE8BCC031852B5107544",
+                "indent": 0
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "2"
+                },
+                "uid": "E4CCB9C020CA514CF3787D0346F3474FB05C",
+                "indent": 0
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "43B1015B17096045F00B67E0D711D404D28B",
+                        "name": "学校の廊下"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "28F9FC407B495541C48BB5B39382CFCE2554",
                 "indent": 0
             },
             {

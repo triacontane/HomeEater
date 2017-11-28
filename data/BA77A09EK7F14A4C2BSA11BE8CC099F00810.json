@@ -22,7 +22,7 @@
                 "alpha": 255
             },
             "defaultExpressionId": "BF7CB12110894142C299D341A545C910AA86",
-            "timeTalkingToVoiceVolume": true,
+            "timeTalkingToVoiceVolume": false,
             "talkingVolume": 5,
             "params": [],
             "index": "BA77A09EK7F14A4C2BSA11BE8CC099F00810"

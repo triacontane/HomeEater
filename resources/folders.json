@@ -23,6 +23,12 @@
                 "_UID": 1125568
             },
             {
+                "name": "kadoku_014n",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 513101
+            },
+            {
                 "name": "snowuta_020n2",
                 "type": "graphic",
                 "isa": null,
@@ -53,6 +59,12 @@
                 "_UID": 7732369
             },
             {
+                "name": "snowuta_027_ishi",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 16703579
+            },
+            {
                 "name": "snowuta_029",
                 "type": "graphic",
                 "isa": null,
@@ -69,6 +81,12 @@
                 "type": "graphic",
                 "isa": null,
                 "_UID": 391115
+            },
+            {
+                "name": "twroom005n",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 1487720
             }
         ]
     },
@@ -269,10 +287,22 @@
                 "_UID": 622488
             },
             {
+                "name": "face_1",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 4682335
+            },
+            {
                 "name": "face_6",
                 "type": "graphic",
                 "isa": null,
                 "_UID": 34851245
+            },
+            {
+                "name": "face_8",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 17342464
             },
             {
                 "name": "GameOver",
@@ -291,6 +321,12 @@
                 "type": "graphic",
                 "isa": null,
                 "_UID": 444948
+            },
+            {
+                "name": "key_icon",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 7163015
             },
             {
                 "name": "web-start-screen",
@@ -707,6 +743,12 @@
             },
             {
                 "name": "suspicion1",
+                "type": "audio",
+                "isa": null,
+                "_UID": 9160923
+            },
+            {
+                "name": "death_sound3",
                 "type": "audio"
             },
             {

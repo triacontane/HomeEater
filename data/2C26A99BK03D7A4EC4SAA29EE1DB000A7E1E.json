@@ -293,7 +293,7 @@
             "startInfo": {
                 "scene": {
                     "uid": "9B37203A5E53A64C38594F804E49DC3B5A1C",
-                    "name": "Sample Scene"
+                    "name": "タイトル"
                 }
             },
             "cursor": {
@@ -319,7 +319,8 @@
             "useIntroScene": true,
             "introInfo": {
                 "scene": {
-                    "uid": "9B37203A5E53A64C38594F804E49DC3B5A1C"
+                    "uid": "9B37203A5E53A64C38594F804E49DC3B5A1C",
+                    "name": "タイトル"
                 }
             },
             "textInputPages": [
@@ -378,7 +379,8 @@
                     "script": "return { x: (Graphics.width - object.dstRect.width * object.zoom.x) / 2, y: (Graphics.height - object.dstRect.height * object.zoom.y) / 2  }"
                 }
             ],
-            "gameUid": "D2C817B749CF1649EF5A19D0B169DBC8F0FE"
+            "gameUid": "D2C817B749CF1649EF5A19D0B169DBC8F0FE",
+            "saveSlotCount": 1
         },
         "id": "2C26A99BK03D7A4EC4SAA29EE1DB000A7E1E",
         "parentId": "ROOT",
