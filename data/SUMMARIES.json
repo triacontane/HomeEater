@@ -5,7 +5,7 @@
             "items": {
                 "name": "HomeEater",
                 "type": "project",
-                "version": "1.0.1034"
+                "version": "1.0.1037"
             }
         },
         "07DD714151A3B2EA": {
@@ -3110,14 +3110,14 @@
             "items": {
                 "name": "背後を確認する",
                 "type": "data_record",
-                "order": 6
+                "order": 5
             }
         },
         "E91554FD3FB5744F5F49DBC66AF22E77243A": {
             "items": {
                 "name": "家喰い出現カウント",
                 "type": "data_record",
-                "order": 7
+                "order": 6
             }
         },
         "6CBA542B28DD824D96982D856C90ED1A76DC": {
@@ -3133,7 +3133,7 @@
             "items": {
                 "name": "ゲームオーバー",
                 "type": "data_record",
-                "order": 8
+                "order": 7
             }
         },
         "E2FA14814DFCE745899B05B15F24920FFB58": {
@@ -3249,6 +3249,20 @@
                 "parentId": "6CBA542B28DD824D96982D856C90ED1A76DC",
                 "chapterUid": "6F9EC9FA64C2B649204BCB920C270E253970",
                 "order": 0
+            }
+        },
+        "2FBDB2B27A2C1445AA7BFF728856D3240839": {
+            "items": {
+                "name": "決定入力判定",
+                "type": "data_record",
+                "order": 8
+            }
+        },
+        "9052A1B67F623040448A1701E0A026405146": {
+            "items": {
+                "name": "メニューキー入力判定",
+                "type": "data_record",
+                "order": 9
             }
         }
     }

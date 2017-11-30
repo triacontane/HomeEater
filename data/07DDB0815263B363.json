@@ -13,11 +13,13 @@
             "targetReferenceDomain": "com.degica.vnm.default",
             "targetReference": {
                 "index": 0,
-                "scope": 1
+                "scope": 1,
+                "domain": "com.degica.vnm.default"
             },
             "targetVariable": {
                 "index": 0,
-                "scope": 1
+                "scope": 1,
+                "domain": "com.degica.vnm.default"
             },
             "targetRangeScope": 0,
             "rangeStart": 0,

@@ -46,104 +46,22 @@
             "Graphics/Pictures/face_8": ".png",
             "Graphics/Pictures/GameOver": ".png",
             "Graphics/Pictures/horrorBack01": ".png",
+            "Graphics/Pictures/kabegiwa5": ".png",
+            "Graphics/Pictures/kabegiwa13": ".png",
             "Graphics/Pictures/kabegiwa37": ".png",
+            "Graphics/Pictures/kabesumi24": ".png",
             "Graphics/Pictures/key_icon": ".png",
+            "Graphics/Pictures/kabesumi6": ".png",
+            "Graphics/Pictures/kabegiwa18": ".png",
             "Graphics/Pictures/web-start-screen": ".png",
             "Graphics/Fonts/minamoji": ".woff",
-            "Audio/Music/300hz_noise": [
-                ".ogg"
-            ],
-            "Audio/Music/600hz_noise": [
-                ".ogg"
-            ],
-            "Audio/Music/1000hz_noise": [
-                ".ogg"
-            ],
-            "Audio/Music/1500hz_noise": [
-                ".ogg"
-            ],
-            "Audio/Music/2400hz_noise": [
-                ".ogg"
-            ],
-            "Audio/Music/barking_dog_in_dream": [
-                ".ogg"
-            ],
-            "Audio/Music/bullying": [
-                ".ogg"
-            ],
-            "Audio/Music/cameras": [
-                ".ogg"
-            ],
-            "Audio/Music/chilly_hell": [
-                ".ogg"
-            ],
             "Audio/Music/coming_of_terror": [
-                ".ogg"
-            ],
-            "Audio/Music/dark_atmosphere": [
-                ".ogg"
-            ],
-            "Audio/Music/dark_attack": [
-                ".ogg"
-            ],
-            "Audio/Music/death_sound1": [
-                ".ogg"
-            ],
-            "Audio/Music/death_sound2": [
-                ".ogg"
-            ],
-            "Audio/Music/death_sound3": [
-                ".ogg"
-            ],
-            "Audio/Music/death_sound4": [
-                ".ogg"
-            ],
-            "Audio/Music/distortion_of_the_dim": [
-                ".ogg"
-            ],
-            "Audio/Music/ending_of_the_world1": [
-                ".ogg"
-            ],
-            "Audio/Music/ending_of_the_world2": [
-                ".ogg"
-            ],
-            "Audio/Music/fly_in_the_head": [
-                ".ogg"
-            ],
-            "Audio/Music/footsteps_of the_past": [
-                ".ogg"
-            ],
-            "Audio/Music/gaining_weight": [
                 ".ogg"
             ],
             "Audio/Music/ghost_sigh": [
                 ".ogg"
             ],
-            "Audio/Music/ghosts": [
-                ".ogg"
-            ],
-            "Audio/Music/going_mad1": [
-                ".ogg"
-            ],
-            "Audio/Music/going_mad2": [
-                ".ogg"
-            ],
-            "Audio/Music/headache": [
-                ".ogg"
-            ],
             "Audio/Music/hell_bell": [
-                ".ogg"
-            ],
-            "Audio/Music/hell_gear": [
-                ".ogg"
-            ],
-            "Audio/Music/horror_piano chord2": [
-                ".ogg"
-            ],
-            "Audio/Music/horror_piano chord3": [
-                ".ogg"
-            ],
-            "Audio/Music/horror_piano chord4": [
                 ".ogg"
             ],
             "Audio/Music/horror_zone1": [
@@ -155,139 +73,28 @@
             "Audio/Music/in_dream": [
                 ".ogg"
             ],
-            "Audio/Music/laughing1": [
-                ".ogg"
-            ],
-            "Audio/Music/loud_noise": [
-                ".ogg"
-            ],
             "Audio/Music/maze": [
-                ".ogg"
-            ],
-            "Audio/Music/shock1": [
-                ".ogg"
-            ],
-            "Audio/Music/shock2": [
-                ".ogg"
-            ],
-            "Audio/Music/shock3": [
-                ".ogg"
-            ],
-            "Audio/Music/something_call_to_you": [
-                ".ogg"
-            ],
-            "Audio/Music/strange_wind": [
-                ".ogg"
-            ],
-            "Audio/Music/suspicion1": [
-                ".ogg"
-            ],
-            "Audio/Music/suspicion2": [
-                ".ogg"
-            ],
-            "Audio/Music/suspicion3": [
-                ".ogg"
-            ],
-            "Audio/Music/terror": [
-                ".ogg"
-            ],
-            "Audio/Music/terror_attack": [
-                ".ogg"
-            ],
-            "Audio/Music/terror_clock": [
-                ".ogg"
-            ],
-            "Audio/Music/time_reversal": [
-                ".ogg"
-            ],
-            "Audio/Music/tinnitus1": [
-                ".ogg"
-            ],
-            "Audio/Music/tinnitus2": [
                 ".ogg"
             ],
             "Audio/Music/tinnitus3": [
                 ".ogg"
             ],
-            "Audio/Music/tinnitus4": [
-                ".ogg"
-            ],
-            "Audio/Music/tinnitus5": [
-                ".ogg"
-            ],
-            "Audio/Music/under_world": [
-                ".ogg"
-            ],
-            "Audio/Music/white_noise1": [
-                ".ogg"
-            ],
-            "Audio/Music/white_noise2": [
-                ".ogg"
-            ],
-            "Audio/Music/horror_piano chord1": [
-                ".ogg"
-            ],
-            "Audio/Sounds/dark_atmosphere": [
-                ".ogg"
-            ],
             "Audio/Sounds/dark_attack": [
-                ".ogg"
-            ],
-            "Audio/Sounds/death_sound3": [
-                ".ogg"
-            ],
-            "Audio/Sounds/footsteps_of the_past": [
-                ".ogg"
-            ],
-            "Audio/Sounds/suspicion1": [
                 ".ogg"
             ],
             "Audio/Sounds/terror_attack": [
                 ".ogg"
             ],
-            "Audio/Sounds/choice_cancel_02": [
+            "Audio/Sounds/footsteps_of the_past": [
                 ".ogg"
             ],
-            "Audio/Sounds/choice_confirm_01": [
+            "Audio/Sounds/dark_atmosphere": [
                 ".ogg"
             ],
-            "Audio/Sounds/choice_confirm_02": [
+            "Audio/Sounds/suspicion1": [
                 ".ogg"
             ],
-            "Audio/Sounds/choice_confirm_03": [
-                ".ogg"
-            ],
-            "Audio/Sounds/cursor": [
-                ".ogg"
-            ],
-            "Audio/Sounds/exit_01": [
-                ".ogg"
-            ],
-            "Audio/Sounds/exit_02": [
-                ".ogg"
-            ],
-            "Audio/Sounds/invalid_buzz_01": [
-                ".ogg"
-            ],
-            "Audio/Sounds/invalid_buzz_02": [
-                ".ogg"
-            ],
-            "Audio/Sounds/invalid_buzz_03": [
-                ".ogg"
-            ],
-            "Audio/Sounds/load_01": [
-                ".ogg"
-            ],
-            "Audio/Sounds/load_02": [
-                ".ogg"
-            ],
-            "Audio/Sounds/save_01": [
-                ".ogg"
-            ],
-            "Audio/Sounds/save_02": [
-                ".ogg"
-            ],
-            "Audio/Sounds/choice_cancel_01": [
+            "Audio/Sounds/death_sound3": [
                 ".ogg"
             ]
         }

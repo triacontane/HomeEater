@@ -317,16 +317,46 @@
                 "_UID": 1793444
             },
             {
+                "name": "kabegiwa5",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 12148089
+            },
+            {
+                "name": "kabegiwa13",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 12481929
+            },
+            {
                 "name": "kabegiwa37",
                 "type": "graphic",
                 "isa": null,
                 "_UID": 444948
             },
             {
+                "name": "kabesumi24",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 11729087
+            },
+            {
                 "name": "key_icon",
                 "type": "graphic",
                 "isa": null,
                 "_UID": 7163015
+            },
+            {
+                "name": "kabesumi6",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 14556118
+            },
+            {
+                "name": "kabegiwa18",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 34939683
             },
             {
                 "name": "web-start-screen",
@@ -359,136 +389,10 @@
         "path": "Audio/Music",
         "resources": [
             {
-                "name": "300hz_noise",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200377
-            },
-            {
-                "name": "600hz_noise",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200379
-            },
-            {
-                "name": "1000hz_noise",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200381
-            },
-            {
-                "name": "1500hz_noise",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200383
-            },
-            {
-                "name": "2400hz_noise",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200385
-            },
-            {
-                "name": "barking_dog_in_dream",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200387
-            },
-            {
-                "name": "bullying",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200389
-            },
-            {
-                "name": "cameras",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200391
-            },
-            {
-                "name": "chilly_hell",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200393
-            },
-            {
                 "name": "coming_of_terror",
                 "type": "audio",
                 "isa": null,
                 "_UID": 200395
-            },
-            {
-                "name": "dark_atmosphere",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200397
-            },
-            {
-                "name": "dark_attack",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200399
-            },
-            {
-                "name": "death_sound1",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200401
-            },
-            {
-                "name": "death_sound2",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200403
-            },
-            {
-                "name": "death_sound3",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200405
-            },
-            {
-                "name": "death_sound4",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200407
-            },
-            {
-                "name": "distortion_of_the_dim",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200409
-            },
-            {
-                "name": "ending_of_the_world1",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200411
-            },
-            {
-                "name": "ending_of_the_world2",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200413
-            },
-            {
-                "name": "fly_in_the_head",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200415
-            },
-            {
-                "name": "footsteps_of the_past",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200417
-            },
-            {
-                "name": "gaining_weight",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200419
             },
             {
                 "name": "ghost_sigh",
@@ -497,58 +401,10 @@
                 "_UID": 200421
             },
             {
-                "name": "ghosts",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200423
-            },
-            {
-                "name": "going_mad1",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200425
-            },
-            {
-                "name": "going_mad2",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200427
-            },
-            {
-                "name": "headache",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200429
-            },
-            {
                 "name": "hell_bell",
                 "type": "audio",
                 "isa": null,
                 "_UID": 200431
-            },
-            {
-                "name": "hell_gear",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200433
-            },
-            {
-                "name": "horror_piano chord2",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200435
-            },
-            {
-                "name": "horror_piano chord3",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200437
-            },
-            {
-                "name": "horror_piano chord4",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200439
             },
             {
                 "name": "horror_zone1",
@@ -569,148 +425,16 @@
                 "_UID": 200445
             },
             {
-                "name": "laughing1",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200447
-            },
-            {
-                "name": "loud_noise",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200449
-            },
-            {
                 "name": "maze",
                 "type": "audio",
                 "isa": null,
                 "_UID": 200451
             },
             {
-                "name": "shock1",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200453
-            },
-            {
-                "name": "shock2",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200455
-            },
-            {
-                "name": "shock3",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200457
-            },
-            {
-                "name": "something_call_to_you",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200459
-            },
-            {
-                "name": "strange_wind",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200461
-            },
-            {
-                "name": "suspicion1",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200463
-            },
-            {
-                "name": "suspicion2",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200465
-            },
-            {
-                "name": "suspicion3",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200467
-            },
-            {
-                "name": "terror",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200469
-            },
-            {
-                "name": "terror_attack",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200471
-            },
-            {
-                "name": "terror_clock",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200473
-            },
-            {
-                "name": "time_reversal",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200475
-            },
-            {
-                "name": "tinnitus1",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200477
-            },
-            {
-                "name": "tinnitus2",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200479
-            },
-            {
                 "name": "tinnitus3",
                 "type": "audio",
                 "isa": null,
                 "_UID": 200481
-            },
-            {
-                "name": "tinnitus4",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200483
-            },
-            {
-                "name": "tinnitus5",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200485
-            },
-            {
-                "name": "under_world",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200487
-            },
-            {
-                "name": "white_noise1",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200489
-            },
-            {
-                "name": "white_noise2",
-                "type": "audio",
-                "isa": null,
-                "_UID": 200491
-            },
-            {
-                "name": "horror_piano chord1",
-                "type": "audio",
-                "isa": null,
-                "_UID": 1152424
             }
         ]
     },
@@ -749,121 +473,9 @@
             },
             {
                 "name": "death_sound3",
-                "type": "audio"
-            },
-            {
-                "type": "folder",
-                "name": "ABCD5AC67A276749B11AC05560C3D6482B3D",
-                "displayName": "System",
-                "resources": [
-                    {
-                        "name": "choice_cancel_02",
-                        "type": "audio",
-                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D",
-                        "isa": null,
-                        "_UID": 268286
-                    },
-                    {
-                        "name": "choice_confirm_01",
-                        "type": "audio",
-                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D",
-                        "isa": null,
-                        "_UID": 268288
-                    },
-                    {
-                        "name": "choice_confirm_02",
-                        "type": "audio",
-                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D",
-                        "isa": null,
-                        "_UID": 268290
-                    },
-                    {
-                        "name": "choice_confirm_03",
-                        "type": "audio",
-                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D",
-                        "isa": null,
-                        "_UID": 268292
-                    },
-                    {
-                        "name": "cursor",
-                        "type": "audio",
-                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D",
-                        "isa": null,
-                        "_UID": 268294
-                    },
-                    {
-                        "name": "exit_01",
-                        "type": "audio",
-                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D",
-                        "isa": null,
-                        "_UID": 268296
-                    },
-                    {
-                        "name": "exit_02",
-                        "type": "audio",
-                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D",
-                        "isa": null,
-                        "_UID": 268298
-                    },
-                    {
-                        "name": "invalid_buzz_01",
-                        "type": "audio",
-                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D",
-                        "isa": null,
-                        "_UID": 268300
-                    },
-                    {
-                        "name": "invalid_buzz_02",
-                        "type": "audio",
-                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D",
-                        "isa": null,
-                        "_UID": 268302
-                    },
-                    {
-                        "name": "invalid_buzz_03",
-                        "type": "audio",
-                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D",
-                        "isa": null,
-                        "_UID": 268304
-                    },
-                    {
-                        "name": "load_01",
-                        "type": "audio",
-                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D",
-                        "isa": null,
-                        "_UID": 268306
-                    },
-                    {
-                        "name": "load_02",
-                        "type": "audio",
-                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D",
-                        "isa": null,
-                        "_UID": 268308
-                    },
-                    {
-                        "name": "save_01",
-                        "type": "audio",
-                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D",
-                        "isa": null,
-                        "_UID": 268310
-                    },
-                    {
-                        "name": "save_02",
-                        "type": "audio",
-                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D",
-                        "isa": null,
-                        "_UID": 268312
-                    },
-                    {
-                        "name": "choice_cancel_01",
-                        "type": "audio",
-                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D",
-                        "isa": null,
-                        "_UID": 268314
-                    }
-                ],
+                "type": "audio",
                 "isa": null,
-                "_UID": 337064
+                "_UID": 36767420
             }
         ]
     },

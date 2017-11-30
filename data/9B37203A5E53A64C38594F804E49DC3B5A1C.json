@@ -351,7 +351,7 @@
                     "zOrder": 0,
                     "text": {
                         "lcId": "D4B3381E53B8444FC51AD915137634B5073A",
-                        "defaultText": "- Click Start -"
+                        "defaultText": "- Press Any Button -"
                     },
                     "position": {
                         "x": 0,
@@ -504,7 +504,7 @@
             {
                 "id": "gs.WaitForInput",
                 "params": {
-                    "key": 1,
+                    "key": 102,
                     "state": 1,
                     "action": {
                         "type": 0,
@@ -516,106 +516,6 @@
                 },
                 "uid": "59F05A451A6CF346C7383F17174A95677B48",
                 "indent": 0
-            },
-            {
-                "id": "gs.LoopCommand",
-                "params": {},
-                "indent": 0,
-                "uid": "33723B01705DB2429789F5A15BC5AB2CEB45"
-            },
-            {
-                "id": "gs.GetInputData",
-                "params": {
-                    "field": 6,
-                    "state": 0,
-                    "targetVariable": {
-                        "name": "キー入力",
-                        "scope": 1,
-                        "index": 0,
-                        "changed": true,
-                        "domain": "com.degica.vnm.default"
-                    },
-                    "previewBackground": {
-                        "name": "$live_preview_snapshot"
-                    }
-                },
-                "indent": 1,
-                "uid": "8FE8FA748F4676412A48F4C8430E934294AF"
-            },
-            {
-                "id": "gs.Condition",
-                "params": {
-                    "variable": {
-                        "name": "キー入力",
-                        "scope": 1,
-                        "index": 0,
-                        "changed": true,
-                        "domain": "com.degica.vnm.default"
-                    },
-                    "numberValue": 0,
-                    "textValue": "",
-                    "switchValue": 0,
-                    "valueType": 0,
-                    "operation": 2,
-                    "previewBackground": {
-                        "name": "$live_preview_snapshot"
-                    }
-                },
-                "indent": 1,
-                "uid": "524DD5722F20984E1B5AA8C5CA853FDADA4D"
-            },
-            {
-                "id": "gs.BreakLoopCommand",
-                "params": {},
-                "indent": 2,
-                "uid": "F05AE55F7A44A942E01BA06393036EAE74E6"
-            },
-            {
-                "id": "gs.GetInputData",
-                "params": {
-                    "field": 11,
-                    "state": 0,
-                    "targetVariable": {
-                        "name": "マウス入力",
-                        "scope": 1,
-                        "index": 1,
-                        "domain": "com.degica.vnm.default",
-                        "changed": true
-                    },
-                    "previewBackground": {
-                        "name": "$live_preview_snapshot"
-                    }
-                },
-                "indent": 1,
-                "uid": "AFBB4AA42660214E653B76C242022B5B1A3F"
-            },
-            {
-                "id": "gs.Condition",
-                "params": {
-                    "variable": {
-                        "name": "マウス入力",
-                        "scope": 1,
-                        "index": 1,
-                        "domain": "com.degica.vnm.default",
-                        "changed": true
-                    },
-                    "numberValue": 0,
-                    "textValue": "",
-                    "switchValue": 0,
-                    "valueType": 0,
-                    "operation": 2,
-                    "previewBackground": {
-                        "name": "$live_preview_snapshot"
-                    }
-                },
-                "indent": 1,
-                "uid": "1D84B3B60AE5B6413E29ADC437B63A93935A"
-            },
-            {
-                "id": "gs.BreakLoopCommand",
-                "params": {},
-                "indent": 2,
-                "uid": "7DFA408056C4304F6E39B7940667AD613310"
             },
             {
                 "id": "gs.PlaySound",
@@ -769,11 +669,44 @@
                 "indent": 0
             },
             {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "2FBDB2B27A2C1445AA7BFF728856D3240839",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "B0136F0839BAC34F1C899E76992F92EE7B69",
+                "indent": 0
+            },
+            {
+                "id": "gs.Condition",
+                "params": {
+                    "variable": {
+                        "name": "何かの入力",
+                        "index": 2,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "numberValue": 0,
+                    "textValue": "",
+                    "switchValue": 0,
+                    "valueType": 0,
+                    "operation": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "BD92D7CF5D5145493209D04709DA5EFB2941",
+                "indent": 0
+            },
+            {
                 "id": "gs.LoadGame",
                 "params": {
                     "slot": 1
                 },
-                "indent": 0,
+                "indent": 1,
                 "uid": "763648274F276147B71A8556C40060089218"
             },
             {
@@ -803,7 +736,7 @@
                 }
             },
             "D4B3381E53B8444FC51AD915137634B5073A": {
-                "t": "- Click Start -",
+                "t": "- Press Any Button -",
                 "d": {
                     "eid": "4F205A3276CEF246E56A5A521162C50B4263"
                 }

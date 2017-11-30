@@ -21,14 +21,18 @@
                 "changed": true
             },
             {
-                "name": "",
+                "name": "何かの入力",
                 "index": 2,
-                "scope": 1
+                "scope": 1,
+                "domain": "com.degica.vnm.default",
+                "changed": true
             },
             {
-                "name": "",
+                "name": "現在の部屋タイプ",
                 "index": 3,
-                "scope": 1
+                "scope": 1,
+                "domain": "com.degica.vnm.default",
+                "changed": true
             },
             {
                 "name": "",
@@ -861,9 +865,11 @@
                 "changed": true
             },
             {
-                "name": "",
+                "name": "マイルド",
                 "index": 6,
-                "scope": 1
+                "scope": 1,
+                "domain": "com.degica.vnm.default",
+                "changed": true
             },
             {
                 "name": "",

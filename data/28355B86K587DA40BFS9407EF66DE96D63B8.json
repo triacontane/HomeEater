@@ -17,7 +17,8 @@
         "defaultValue": {
             "listVariable": {
                 "index": 0,
-                "scope": 1
+                "scope": 1,
+                "domain": "com.degica.vnm.default"
             }
         },
         "quickItems": [

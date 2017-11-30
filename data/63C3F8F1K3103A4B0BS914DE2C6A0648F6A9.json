@@ -27,7 +27,7 @@
         "quickItems": [
             {
                 "label": "$$9EE4CE017D7EE74B2D7B1FA77978BD1CD3DB",
-                "valueFormula": "return GS.CONST.INPUT_DATA_FIELDS[p.field];",
+                "valueFormula": "return p.field >= 100 ? GS.CONST.KEYS_BY_CODE[p.field].name : GS.CONST.INPUT_DATA_FIELDS[p.field];",
                 "attribute": "field",
                 "identifier": "field",
                 "type": "GSQPopupField",
@@ -45,51 +45,479 @@
                     "$$6C6A0A0F84C235428A88D969C2466B508783",
                     "$$E5EC2E32396D0944133ABCF7F3972A22CD47",
                     "$$D2B1D1C82FA02246143847764B431C2BD5B3",
-                    "$$A83E228491E695450008E3C0CA25B36CF752"
-                ],
-                "showItems": [
-                    [
-                        "numberVariable"
-                    ],
-                    [
-                        "numberVariable"
-                    ],
-                    [
-                        "numberVariable"
-                    ],
-                    [
-                        "numberVariable"
-                    ],
-                    [
-                        "numberVariable"
-                    ],
-                    [
-                        "numberVariable"
-                    ],
-                    [
-                        "numberVariable"
-                    ],
-                    [
-                        "numberVariable"
-                    ],
-                    [
-                        "numberVariable"
-                    ],
-                    [
-                        "numberVariable"
-                    ],
-                    [
-                        "numberVariable"
-                    ],
-                    [
-                        "numberVariable"
-                    ],
-                    [
-                        "numberVariable"
-                    ],
-                    [
-                        "numberVariable"
-                    ]
+                    "$$A83E228491E695450008E3C0CA25B36CF752",
+                    {
+                        "name": "Any Key",
+                        "alias": 100
+                    },
+                    {
+                        "name": "Any Button",
+                        "alias": 101
+                    },
+                    {
+                        "name": "Any Input",
+                        "alias": 102
+                    },
+                    {
+                        "name": "Key - Cancel",
+                        "alias": 103
+                    },
+                    {
+                        "name": "Key - Help",
+                        "alias": 106
+                    },
+                    {
+                        "name": "Key - Backspace",
+                        "alias": 108
+                    },
+                    {
+                        "name": "Key - Tab",
+                        "alias": 109
+                    },
+                    {
+                        "name": "Key - Clear",
+                        "alias": 112
+                    },
+                    {
+                        "name": "Key - Return",
+                        "alias": 113
+                    },
+                    {
+                        "name": "Key - Enter",
+                        "alias": 114
+                    },
+                    {
+                        "name": "Key - Shift",
+                        "alias": 116
+                    },
+                    {
+                        "name": "Key - Control",
+                        "alias": 117
+                    },
+                    {
+                        "name": "Key - Alt",
+                        "alias": 118
+                    },
+                    {
+                        "name": "Key - Pause",
+                        "alias": 119
+                    },
+                    {
+                        "name": "Key - Caps Lock",
+                        "alias": 120
+                    },
+                    {
+                        "name": "Key - Escape",
+                        "alias": 127
+                    },
+                    {
+                        "name": "Key - Space",
+                        "alias": 132
+                    },
+                    {
+                        "name": "Key - Page Up",
+                        "alias": 133
+                    },
+                    {
+                        "name": "Key - Page Down",
+                        "alias": 134
+                    },
+                    {
+                        "name": "Key - End",
+                        "alias": 135
+                    },
+                    {
+                        "name": "Key - Home",
+                        "alias": 136
+                    },
+                    {
+                        "name": "Key - Left",
+                        "alias": 137
+                    },
+                    {
+                        "name": "Key - Up",
+                        "alias": 138
+                    },
+                    {
+                        "name": "Key - Right",
+                        "alias": 139
+                    },
+                    {
+                        "name": "Key - Down",
+                        "alias": 140
+                    },
+                    {
+                        "name": "Key - Print Screen",
+                        "alias": 144
+                    },
+                    {
+                        "name": "Key - Insert",
+                        "alias": 145
+                    },
+                    {
+                        "name": "Key - Delete",
+                        "alias": 146
+                    },
+                    {
+                        "name": "Key - 0",
+                        "alias": 148
+                    },
+                    {
+                        "name": "Key - 1",
+                        "alias": 149
+                    },
+                    {
+                        "name": "Key - 2",
+                        "alias": 150
+                    },
+                    {
+                        "name": "Key - 3",
+                        "alias": 151
+                    },
+                    {
+                        "name": "Key - 4",
+                        "alias": 152
+                    },
+                    {
+                        "name": "Key - 5",
+                        "alias": 153
+                    },
+                    {
+                        "name": "Key - 6",
+                        "alias": 154
+                    },
+                    {
+                        "name": "Key - 7",
+                        "alias": 155
+                    },
+                    {
+                        "name": "Key - 8",
+                        "alias": 156
+                    },
+                    {
+                        "name": "Key - 9",
+                        "alias": 157
+                    },
+                    {
+                        "name": "Key - Semicolon",
+                        "alias": 159
+                    },
+                    {
+                        "name": "Key - Equals",
+                        "alias": 161
+                    },
+                    {
+                        "name": "Key - A",
+                        "alias": 165
+                    },
+                    {
+                        "name": "Key - B",
+                        "alias": 166
+                    },
+                    {
+                        "name": "Key - C",
+                        "alias": 167
+                    },
+                    {
+                        "name": "Key - D",
+                        "alias": 168
+                    },
+                    {
+                        "name": "Key - E",
+                        "alias": 169
+                    },
+                    {
+                        "name": "Key - F",
+                        "alias": 170
+                    },
+                    {
+                        "name": "Key - G",
+                        "alias": 171
+                    },
+                    {
+                        "name": "Key - H",
+                        "alias": 172
+                    },
+                    {
+                        "name": "Key - I",
+                        "alias": 173
+                    },
+                    {
+                        "name": "Key - J",
+                        "alias": 174
+                    },
+                    {
+                        "name": "Key - K",
+                        "alias": 175
+                    },
+                    {
+                        "name": "Key - L",
+                        "alias": 176
+                    },
+                    {
+                        "name": "Key - M",
+                        "alias": 177
+                    },
+                    {
+                        "name": "Key - N",
+                        "alias": 178
+                    },
+                    {
+                        "name": "Key - O",
+                        "alias": 179
+                    },
+                    {
+                        "name": "Key - P",
+                        "alias": 180
+                    },
+                    {
+                        "name": "Key - Q",
+                        "alias": 181
+                    },
+                    {
+                        "name": "Key - R",
+                        "alias": 182
+                    },
+                    {
+                        "name": "Key - S",
+                        "alias": 183
+                    },
+                    {
+                        "name": "Key - T",
+                        "alias": 184
+                    },
+                    {
+                        "name": "Key - U",
+                        "alias": 185
+                    },
+                    {
+                        "name": "Key - V",
+                        "alias": 186
+                    },
+                    {
+                        "name": "Key - W",
+                        "alias": 187
+                    },
+                    {
+                        "name": "Key - X",
+                        "alias": 188
+                    },
+                    {
+                        "name": "Key - Y",
+                        "alias": 189
+                    },
+                    {
+                        "name": "Key - Z",
+                        "alias": 190
+                    },
+                    {
+                        "name": "Key - Context Menu",
+                        "alias": 193
+                    },
+                    {
+                        "name": "Key - Numpad 0",
+                        "alias": 196
+                    },
+                    {
+                        "name": "Key - Numpad 1",
+                        "alias": 197
+                    },
+                    {
+                        "name": "Key - Numpad 2",
+                        "alias": 198
+                    },
+                    {
+                        "name": "Key - Numpad 3",
+                        "alias": 199
+                    },
+                    {
+                        "name": "Key - Numpad 4",
+                        "alias": 200
+                    },
+                    {
+                        "name": "Key - Numpad 5",
+                        "alias": 201
+                    },
+                    {
+                        "name": "Key - Numpad 6",
+                        "alias": 202
+                    },
+                    {
+                        "name": "Key - Numpad 7",
+                        "alias": 203
+                    },
+                    {
+                        "name": "Key - Numpad 8",
+                        "alias": 204
+                    },
+                    {
+                        "name": "Key - Numpad 9",
+                        "alias": 205
+                    },
+                    {
+                        "name": "Key - Multiply",
+                        "alias": 206
+                    },
+                    {
+                        "name": "Key - Add",
+                        "alias": 207
+                    },
+                    {
+                        "name": "Key - Separator",
+                        "alias": 208
+                    },
+                    {
+                        "name": "Key - Subtract",
+                        "alias": 209
+                    },
+                    {
+                        "name": "Key - Decimal",
+                        "alias": 210
+                    },
+                    {
+                        "name": "Key - Divide",
+                        "alias": 211
+                    },
+                    {
+                        "name": "Key - F1",
+                        "alias": 212
+                    },
+                    {
+                        "name": "Key - F2",
+                        "alias": 213
+                    },
+                    {
+                        "name": "Key - F3",
+                        "alias": 214
+                    },
+                    {
+                        "name": "Key - F4",
+                        "alias": 215
+                    },
+                    {
+                        "name": "Key - F5",
+                        "alias": 216
+                    },
+                    {
+                        "name": "Key - F6",
+                        "alias": 217
+                    },
+                    {
+                        "name": "Key - F7",
+                        "alias": 218
+                    },
+                    {
+                        "name": "Key - F8",
+                        "alias": 219
+                    },
+                    {
+                        "name": "Key - F9",
+                        "alias": 220
+                    },
+                    {
+                        "name": "Key - F10",
+                        "alias": 221
+                    },
+                    {
+                        "name": "Key - F11",
+                        "alias": 222
+                    },
+                    {
+                        "name": "Key - F12",
+                        "alias": 223
+                    },
+                    {
+                        "name": "Key - F13",
+                        "alias": 224
+                    },
+                    {
+                        "name": "Key - F14",
+                        "alias": 225
+                    },
+                    {
+                        "name": "Key - F15",
+                        "alias": 226
+                    },
+                    {
+                        "name": "Key - F16",
+                        "alias": 227
+                    },
+                    {
+                        "name": "Key - F17",
+                        "alias": 228
+                    },
+                    {
+                        "name": "Key - F18",
+                        "alias": 229
+                    },
+                    {
+                        "name": "Key - F19",
+                        "alias": 230
+                    },
+                    {
+                        "name": "Key - F20",
+                        "alias": 231
+                    },
+                    {
+                        "name": "Key - F21",
+                        "alias": 232
+                    },
+                    {
+                        "name": "Key - F22",
+                        "alias": 233
+                    },
+                    {
+                        "name": "Key - F23",
+                        "alias": 234
+                    },
+                    {
+                        "name": "Key - F24",
+                        "alias": 235
+                    },
+                    {
+                        "name": "Key - Num Lock",
+                        "alias": 244
+                    },
+                    {
+                        "name": "Key - Scroll Lock",
+                        "alias": 245
+                    },
+                    {
+                        "name": "Key - Comma",
+                        "alias": 288
+                    },
+                    {
+                        "name": "Key - Period",
+                        "alias": 290
+                    },
+                    {
+                        "name": "Key - Slash",
+                        "alias": 291
+                    },
+                    {
+                        "name": "Key - Back Quote",
+                        "alias": 292
+                    },
+                    {
+                        "name": "Key - Open Bracket",
+                        "alias": 319
+                    },
+                    {
+                        "name": "Key - Back Slash",
+                        "alias": 320
+                    },
+                    {
+                        "name": "Key - Close Bracket",
+                        "alias": 321
+                    },
+                    {
+                        "name": "Key - Quote",
+                        "alias": 322
+                    },
+                    {
+                        "name": "Key - Meta",
+                        "alias": 324
+                    }
                 ]
             },
             {
@@ -107,7 +535,7 @@
             }
         ],
         "sections": [],
-        "rawContent": "{\n    \"parentId\": \"AFAD6CEFK59C1A4298SBABFE7AEC1B964622\",\n    \"displayName\": \"$$920AFC8E549CC348534811D3370FD77FC8F2\",\n    \"windowTitle\": \"$$90433D4CK4E35A4DFDS862EEFB0C4808F17E\",\n    \"type\": \"event_command\",\n    \"id\": \"gs.GetInputData\",\n    \"group\": \"$$C1953650K4FD7A4268SB298E0BEFC554D88E\",\n    \"subGroup\": \"$$271150F15AF34549943BCE034E6B8B439297\",\n    \"windowSize\": {\n        \"w\": 600,\n        \"h\": 260\n    },\n    \"nodes\": [\n    ],\n    \"defaultValue\": { \"field\": 0, \"state\": 0, \"targetVariable\": { \"scope\": 1, \"index\": 0, \"domain\": GS.CONST.DEFAULT_DOMAIN } },\n    \"quickItems\": [\n        {\n            \"label\": \"$$9EE4CE017D7EE74B2D7B1FA77978BD1CD3DB\",\n            \"valueFormula\": \"return GS.CONST.INPUT_DATA_FIELDS[p.field];\",\n            \"attribute\": \"field\",\n            \"identifier\": \"field\",\n            \"type\": \"GSQPopupField\",\n            \"dataSource\": GS.CONST.INPUT_DATA_FIELDS,\n            \"showItems\": [\n                [\"numberVariable\"], \n                [\"numberVariable\"],\n                [\"numberVariable\"],\n                [\"numberVariable\"],\n                [\"numberVariable\"],\n                [\"numberVariable\"],\n                [\"numberVariable\"],\n                [\"numberVariable\"],\n                [\"numberVariable\"],\n                [\"numberVariable\"],\n                [\"numberVariable\"],\n                [\"numberVariable\"],\n                [\"numberVariable\"],\n                [\"numberVariable\"]\n            ]\n        },\n        {\n            \"label\": \"$$279A870082643340194815582532E3A95B7F\",\n            \"identifier\": \"numberVariable\",\n            \"valueFormula\": \"return fmtNumVar(p.targetVariable)\",\n            \"type\": \"GSQPopupField\",\n            \"dialog\": { \"uid\": \"dialog.selectVariable\", \"parameters\": { \"dataSource\": \"numbers\" } },\n            \"attribute\": \"targetVariable\"\n        }\n    ],\n    \"sections\": [\n    ]\n}",
+        "rawContent": "{\n    \"parentId\": \"AFAD6CEFK59C1A4298SBABFE7AEC1B964622\",\n    \"displayName\": \"$$920AFC8E549CC348534811D3370FD77FC8F2\",\n    \"windowTitle\": \"$$90433D4CK4E35A4DFDS862EEFB0C4808F17E\",\n    \"type\": \"event_command\",\n    \"id\": \"gs.GetInputData\",\n    \"group\": \"$$C1953650K4FD7A4268SB298E0BEFC554D88E\",\n    \"subGroup\": \"$$271150F15AF34549943BCE034E6B8B439297\",\n    \"windowSize\": {\n        \"w\": 600,\n        \"h\": 260\n    },\n    \"nodes\": [\n    ],\n    \"defaultValue\": { \"field\": 0, \"state\": 0, \"targetVariable\": { \"scope\": 1, \"index\": 0, \"domain\": GS.CONST.DEFAULT_DOMAIN } },\n    \"quickItems\": [\n        {\n            \"label\": \"$$9EE4CE017D7EE74B2D7B1FA77978BD1CD3DB\",\n            \"valueFormula\": \"return p.field >= 100 ? GS.CONST.KEYS_BY_CODE[p.field].name : GS.CONST.INPUT_DATA_FIELDS[p.field];\",\n            \"attribute\": \"field\",\n            \"identifier\": \"field\",\n            \"type\": \"GSQPopupField\",\n            \"dataSource\": GS.CONST.INPUT_DATA_FIELDS\n        },\n        {\n            \"label\": \"$$279A870082643340194815582532E3A95B7F\",\n            \"identifier\": \"numberVariable\",\n            \"valueFormula\": \"return fmtNumVar(p.targetVariable)\",\n            \"type\": \"GSQPopupField\",\n            \"dialog\": { \"uid\": \"dialog.selectVariable\", \"parameters\": { \"dataSource\": \"numbers\" } },\n            \"attribute\": \"targetVariable\"\n        }\n    ],\n    \"sections\": [\n    ]\n}",
         "name": "Input Data",
         "order": 6
     },

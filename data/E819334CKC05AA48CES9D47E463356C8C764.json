@@ -18,24 +18,29 @@
             "valueType": 0,
             "listVariable": {
                 "index": 0,
-                "scope": 1
+                "scope": 1,
+                "domain": "com.degica.vnm.default"
             },
             "targetVariable": {
                 "index": 0,
-                "scope": 1
+                "scope": 1,
+                "domain": "com.degica.vnm.default"
             },
             "numberValue": 0,
             "switchValue": {
                 "index": 0,
-                "scope": 1
+                "scope": 1,
+                "domain": "com.degica.vnm.default"
             },
             "stringValue": {
                 "index": 0,
-                "scope": 1
+                "scope": 1,
+                "domain": "com.degica.vnm.default"
             },
             "listValue": {
                 "index": 0,
-                "scope": 1
+                "scope": 1,
+                "domain": "com.degica.vnm.default"
             }
         },
         "quickItems": [

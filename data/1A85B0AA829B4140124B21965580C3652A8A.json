@@ -10,7 +10,7 @@
         "order": 0,
         "localizableStrings": {
             "096E41A7358DC24E8F2BB015994C48F8FC00": {
-                "t": "某日\n日が暮れるまで自室での作業に没頭していた私は、休憩がてら部屋から廊下に出た瞬間、\n唖然として立ち尽くした。",
+                "t": "日が暮れるまで自室での作業に没頭していた私は、休憩がてら部屋から廊下に出た瞬間、\n唖然として立ち尽くした。",
                 "d": {
                     "cid": 0,
                     "eid": "DACBB5C4536CF543287825A05783369152BE"
@@ -65,10 +65,23 @@
                     "eid": "A3714FC67F807741436BC294449CA025A48A"
                 }
             },
-            "057B053C84D681461C3859A210EEDE879702": {
-                "t": "！注意！\n本作には、ややショッキングな表現が含まれています。\n苦手な方はご注意ください。\nまた、本作はマウスを使ってプレーします。",
+            "CCC5BB7977B6C74E8469CBD7F25D18DD84AD": {
+                "t": "！注意！\n本作にはややショッキングな内容が含まれています。\n表現をマイルドなものに変更しますか？\n（この設定を後から変更したい場合は、タイトル画面でマウスの左ボタンを押し続けてください）",
                 "d": {
-                    "eid": "C92B862D1727744BF009A201ED94B7D3B8EC"
+                    "cid": 0,
+                    "eid": "FF7F195529C7D74A83490E312369A02A8399"
+                }
+            },
+            "A9974BF124EF784E6F1AEF19CBC523AED260": {
+                "t": "そのまま",
+                "d": {
+                    "eid": "6C9A714B4FC3094B4A2BDE69384385C32EB7"
+                }
+            },
+            "BC40262D47E8724CC54AE2F6ACFE72BD8181": {
+                "t": "マイルドにする",
+                "d": {
+                    "eid": "BF1AE6E23CED6947C32B3BA78055E0F090E1"
                 }
             }
         },
@@ -93,150 +106,136 @@
                 "indent": 0
             },
             {
-                "id": "gs.ChangeTextSettings",
+                "id": "gs.ShowMessage",
                 "params": {
-                    "numberDomain": "com.degica.vnm.default",
-                    "number": 0,
-                    "bold": 0,
-                    "italic": 0,
-                    "underline": 0,
-                    "smallCaps": 0,
-                    "strikeThrough": 0,
-                    "lineSpacing": 0,
-                    "padding": [
-                        6,
-                        0,
-                        6,
-                        0
-                    ],
-                    "font": "minamoji",
-                    "size": 48,
-                    "outline": 0,
-                    "shadow": 0,
-                    "outlineColor": {
-                        "red": 0,
-                        "green": 0,
-                        "blue": 0,
-                        "alpha": 255
-                    },
-                    "shadowColor": {
-                        "red": 0,
-                        "green": 0,
-                        "blue": 0,
-                        "alpha": 255
-                    },
-                    "fieldFlags": {
-                        "font": 0,
-                        "size": 0,
-                        "color": 1,
-                        "bold": 1,
-                        "italic": 1,
-                        "smallCaps": 1,
-                        "underline": 1,
-                        "strikeThrough": 1,
-                        "lineSpacing": 1,
-                        "outline": 1,
-                        "outlineColor": 1,
-                        "outlineSize": 1,
-                        "shadow": 1,
-                        "shadowColor": 1,
-                        "shadowOffsetX": 1,
-                        "shadowOffsetY": 1,
-                        "padding.0": 1,
-                        "padding.1": 1,
-                        "padding.2": 1,
-                        "padding.3": 1
-                    }
-                },
-                "uid": "F345594E53DD8444C58B9F7305990521975B",
-                "indent": 0,
-                "expanded": false
-            },
-            {
-                "id": "gs.ShowText",
-                "params": {
-                    "numberDomain": "com.degica.vnm.default",
-                    "viewport": {
-                        "type": "ui"
-                    },
-                    "predefinedPositionId": 8,
-                    "positionType": 0,
-                    "number": 0,
-                    "duration": 0,
                     "waitForCompletion": 1,
-                    "blendMode": 0,
-                    "positionOrigin": 0,
-                    "origin": 0,
-                    "zOrder": 0,
-                    "text": {
-                        "lcId": "057B053C84D681461C3859A210EEDE879702",
-                        "defaultText": "！注意！\n本作には、ややショッキングな表現が含まれています。\n苦手な方はご注意ください。\nまた、本作はマウスを使ってプレーします。"
-                    },
-                    "position": {
-                        "x": 0,
-                        "y": 0
-                    },
-                    "easing": {
-                        "type": 0,
-                        "inOut": 1
-                    },
-                    "animation": {
-                        "type": 1,
-                        "movement": 0,
-                        "mask": {
-                            "graphic": null,
-                            "vague": 30
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
                         }
                     },
+                    "message": {
+                        "lcId": "CCC5BB7977B6C74E8469CBD7F25D18DD84AD",
+                        "defaultText": "！注意！\n本作にはややショッキングな内容が含まれています。\n表現をマイルドなものに変更しますか？\n（この設定を後から変更したい場合は、タイトル画面でマウスの左ボタンを押し続けてください）"
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
                     "fieldFlags": {
-                        "duration": 0,
-                        "easing.type": 1,
-                        "animation.type": 1,
-                        "origin": 1,
-                        "positionOrigin": 1,
-                        "zOrder": 1,
-                        "blendMode": 1,
-                        "viewport.type": 1
+                        "duration": 1
                     },
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "C92B862D1727744BF009A201ED94B7D3B8EC",
+                "uid": "FF7F195529C7D74A83490E312369A02A8399",
                 "indent": 0,
-                "expanded": false
+                "expanded": true
             },
             {
-                "id": "gs.WaitCommand",
+                "id": "vn.Choice",
                 "params": {
-                    "time": 180
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "null",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": "A9974BF124EF784E6F1AEF19CBC523AED260",
+                        "defaultText": "そのまま"
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 0,
+                    "box": {
+                        "x": 0,
+                        "y": 0,
+                        "size": {
+                            "width": 300,
+                            "height": 50
+                        }
+                    },
+                    "defaultChoice": 0
                 },
-                "uid": "17C430E6609C474B274B4DF757151BF25D22",
+                "uid": "6C9A714B4FC3094B4A2BDE69384385C32EB7",
                 "indent": 0
             },
             {
-                "id": "gs.EraseText",
+                "id": "vn.Choice",
                 "params": {
-                    "numberDomain": "com.degica.vnm.default",
-                    "number": 0,
-                    "duration": 0,
-                    "waitForCompletion": 1,
-                    "easing": {
-                        "type": 0,
-                        "inOut": 1
+                    "action": {
+                        "type": 2,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "",
+                        "switch": {
+                            "name": "マイルド",
+                            "index": 6,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default",
+                            "changed": true
+                        },
+                        "scene": null
                     },
-                    "animation": {
-                        "type": 1,
-                        "movement": 0,
-                        "mask": {
-                            "graphic": null,
-                            "vague": 30
+                    "text": {
+                        "lcId": "BC40262D47E8724CC54AE2F6ACFE72BD8181",
+                        "defaultText": "マイルドにする"
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 0,
+                    "box": {
+                        "x": 0,
+                        "y": 0,
+                        "size": {
+                            "width": 300,
+                            "height": 50
                         }
                     },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "BF1AE6E23CED6947C32B3BA78055E0F090E1",
+                "indent": 0
+            },
+            {
+                "id": "vn.ShowChoices",
+                "params": {},
+                "uid": "30115C29408FC046886BADB1762186C0AC2B",
+                "indent": 0
+            },
+            {
+                "id": "gs.ClearMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 30,
                     "fieldFlags": {
                         "duration": 1
                     }
                 },
-                "uid": "7AE4114A6A3B1445D5281E96823299A24BEE",
+                "uid": "B6386F3B2993014CA61B61420EE956D3EAF0",
                 "indent": 0
             },
             {
@@ -265,7 +264,7 @@
                     },
                     "message": {
                         "lcId": "096E41A7358DC24E8F2BB015994C48F8FC00",
-                        "defaultText": "某日\n日が暮れるまで自室での作業に没頭していた私は、休憩がてら部屋から廊下に出た瞬間、\n唖然として立ち尽くした。"
+                        "defaultText": "日が暮れるまで自室での作業に没頭していた私は、休憩がてら部屋から廊下に出た瞬間、\n唖然として立ち尽くした。"
                     },
                     "position": 0,
                     "characterId": 0,
